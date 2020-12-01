@@ -1,0 +1,2161 @@
+% Encoding: UTF-8
+
+@Article{Duane1987,
+  author       = {Duane, S. and Kennedy, A. D. and Pendleton, B. J. and Roweth, D.},
+  date         = {1987-09-03},
+  journaltitle = {Phys. Lett. B},
+  title        = {Hybrid {Monte Carlo}},
+  doi          = {10.1016/0370-2693(87)91197-x},
+  issue        = {2},
+  pages        = {216-222},
+  volume       = {195},
+  abstract     = {We present a new method for the numerical simulation of lattice field theory. A hybrid (molecular dynamics/Langevin) algorithm is used to guide a Monte Carlo simulation. There are no discretization errors even for large step sizes. The method is especially efficient for systems such as quantum chromodynamics which contain fermionic degrees of freedom. Detailed results are presented for four-dimensional compact quantum electrodynamics including the dynamical effects of electrons.},
+  keywords     = {local, lattice, hmc, mcmc},
+}
+
+@Article{Creutz1980,
+  author       = {Creutz, M.},
+  date         = {1980-10-24},
+  journaltitle = {Phys. Rev. D},
+  title        = {{Monte Carlo} study of quantized {SU(2)} gauge theory},
+  doi          = {10.1103/physrevd.21.2308},
+  number       = {8},
+  pages        = {2308-2315},
+  volume       = {21},
+  abstract     = {Using Monte Carlo techniques, we evaluate path integrals for pure SU(2) gauge fields. Wilson's .
+regularization procedure on a lattice of up to 10' sites controls ultraviolet divergences. Our renormalization
+prescription, based on confinement, is to hold fixed the string tension, the coefficient of the asymptotic
+linear potential between sources in the fundamental representation of the gauge group. Upon reducing the
+cutoff, we observe a logarithmic decrease of the bare coupling constant in a manner consistent with the
+perturbative renormalization-group
+prediction. This supports the coexistence of confinement and asymptotic
+freedom for quantized non-Abelian gauge fields.},
+  keywords     = {historical, lattice, su2},
+}
+
+@Article{DiVecchia1981,
+  author       = {Di Vecchia, P. and Fabricius, K. and Rossi, G. C. and Veneziano, G.},
+  date         = {1981-06-15},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Preliminary evidence for {UA(1)} breaking in {QCD} from lattice calculations},
+  doi          = {10.1016/0550-3213(81)90432-6},
+  pages        = {392-408},
+  volume       = {192},
+  abstract     = {We suggest a simple definition of the topological charge density Q(x) in the lattice
+Yang-Mills theory and evaluate A :-- fd4x~Q(x)Q(O)) in SU(2) by Monte Carlo simulation. The
+"data" interpolate well between the strong and weak coupling expansions, which we compute to
+order g - ~2 and g6 respectively. After subtraction of the perturbative tail, our points exhibit the
+expected asymptotic freedom behaviour giving A I / 4 ~ (0.11 ± 0.02)K 1/2, K being the SU(2)
+quarkless string tension. Although a larger value for AI/4K 1/2 would be preferable, we are led to
+conclude (at least tentatively) that the UA(1 ) problem of QCD is indeed solved perturbatively in
+the quark loop expansion.},
+  keywords     = {historical, topology, lattice, qcd},
+}
+
+@Misc{Dinh2014,
+  author      = {Dinh, L. and Krueger, D. and Bengio, Y.},
+  date        = {2014-10-30},
+  title       = {{NICE}: Non-linear independent components estimation},
+  eprint      = {1410.8516},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {We propose a deep learning framework for modeling complex high-dimensional densities called Non-linear Independent Component Estimation (NICE). It is based on the idea that a good representation is one in which the data has a dis- tribution that is easy to model. For this purpose, a non-linear deterministic trans- formation of the data is learned that maps it to a latent space so as to make the transformed data conform to a factorized distribution, i.e., resulting in indepen- dent latent variables. We parametrize this transformation so that computing the determinant of the Jacobian and inverse Jacobian is trivial, yet we maintain the ability to learn complex non-linear transformations, via a composition of simple building blocks, each based on a deep neural network. The training criterion is simply the exact log-likelihood, which is tractable. Unbiased ancestral sampling is also easy. We show that this approach yields good generative models on four image datasets and can be used for inpainting. 1 INTRODUCTION},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Dinh2016,
+  author      = {Dinh, L. and Sohl-Dickstein, J. and Bengio, S.},
+  date        = {2016-05-27},
+  title       = {Density estimation using {Real NVP}},
+  eprint      = {1605.08803},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Unsupervised learning of probabilistic models is a central yet challenging problem in machine learning. Specifi cally, designing models with tractable learning, sam- pling, inference and evaluation is crucial in solving this task. We extend the space of such models using real-valued non-volume preserving (real NVP) transforma- tions, a set of powerful, stably invertible, and learnable transformations, resulting in an unsupervised learning algorithm with exact log-likelihood computation, exact and effi cient sampling, exact and effi cient inference of latent variables, and an interpretable latent space. We demonstrate its ability to model natural images on four datasets through sampling, log-likelihood evaluation, and latent variable},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Kingma2018,
+  author      = {Kingma, D. P. and Dhariwal, P.},
+  date        = {2018-07-09},
+  title       = {Glow: Generative Flow with Invertible 1x1 Convolutions},
+  eprint      = {1807.03039},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {Flow-based generative models (Dinh et al., 2014) are conceptually attractive due to tractability of the exact log-likelihood, tractability of exact latent-variable inference, and parallelizability of both training and synthesis. In this paper we propose Glow, a simple type of generative flow using an invertible 1 × 1 convolution. Using our method we demonstrate a significant improvement in log-likelihood on standard benchmarks. Perhaps most strikingly, we demonstrate that a generative model optimized towards the plain log-likelihood objective is capable of efficient realistic- looking synthesis and manipulation of large images. The code for our model is},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Ioffe2015,
+  author      = {Ioffe, S. and Szegedy, C.},
+  date        = {2015-02-11},
+  title       = {Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift},
+  eprint      = {1502.03167},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization. It also acts as a regularizer, in some cases eliminating the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.9\% top-5 validation error (and 4.8\% test error), exceeding the accuracy of human raters.},
+  keywords    = {optim, ml},
+}
+
+@Misc{Muller2018,
+  author      = {M\"{u}ller, Thomas and Mcwilliams, Brian and Rousselle, Fabrice and Gross, Markus and Nov\'{a}k, Jan},
+  date        = {2018-08-11},
+  title       = {Neural Importance Sampling},
+  eprint      = {1808.03856},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {We propose to use deep neural networks for generating samples in Monte Carlo integration. Our work is based on non-linear independent components estimation (NICE), which we extend in numerous ways to improve performance and enable its application to integration problems. First, we introduce piecewise-polynomial coupling transforms that greatly increase the modeling power of individual coupling layers. Second, we propose to preprocess the inputs of neural networks using one-blob encoding, which stimulates localization of computation and improves inference. Third, we derive a gradient-descent-based optimization for the Kullback-Leibler and the χ2 divergence for the specific application of Monte Carlo integration with unnormalized stochastic estimates of the target distribution. Our approach enables fast and accurate inference and efficient sample generation independently of the dimensionality of the integration domain. We show its benefits on generating natural images and in two applications to light-transport simulation: first, we demonstrate learning of joint path-sampling densities in the primary sample space and importance sampling of multi-dimensional path prefixes thereof. Second, we use our technique to extract conditional directional densities driven by the product of incident illumination and the BSDF in the rendering equation, and we leverage the densities for path guiding. In all applications, our approach yields on-par or higher performance than competing techniques at equal sample count.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Durkan2019a,
+  author      = {Durkan, C. and Bekasov, A. and Murray, I. and Papamakarios, G.},
+  date        = {2019-06-05},
+  title       = {Cubic Spline Flows},
+  eprint      = {1906.02145},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {A normalizing flow models a complex probability density as an invertible transformation of a simple density. The invertibility means that we can evaluate densities and generate samples from a flow. In practice, autoregressive flow-based models are slow to invert, making either density estimation or sample generation slow. Flows based on coupling transforms are fast for both tasks, but have previously performed less well at density estimation than autoregressive flows. We stack a new coupling transform, based on monotonic cubic splines, with LU-decomposed linear layers. The resulting cubic-spline flow retains an exact one-pass inverse, can be used to generate high-quality images, and closes the gap with autoregressive flows on a suite of density-estimation tasks.},
+  keywords    = {flows, splines, dgm, new-model},
+}
+
+@Misc{Durkan2019b,
+  author      = {Durkan, C. and Bekasov, A. and Murray, I. and Papamakarios, G.},
+  date        = {2019-06-10},
+  title       = {Neural Spline Flows},
+  eprint      = {1906.04032},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {A normalizing flow models a complex probability density as an invertible transformation of a simple base density. Flows based on either coupling or autoregressive transforms both offer exact density evaluation and sampling, but rely on the parameterization of an easily invertible elementwise transformation, whose choice determines the flexibility of these models. Building upon recent work, we propose a fully-differentiable module based on monotonic rational-quadratic splines, which enhances the flexibility of both coupling and autoregressive transforms while retaining analytic invertibility. We demonstrate that neural spline flows improve density estimation, variational inference, and generative modeling of images.},
+  keywords    = {flows, splines, dgm, new-model},
+}
+
+@Misc{Goodfellow2014,
+  author      = {Goodfellow, I. J. and Pouget-Abadie, J. and Mirza, M. and Xu, B. and Warde-Farley, D. and Ozair, S. and Courville, A. and Bengio, Y.},
+  date        = {2014-06-10},
+  title       = {Generative Adversarial Networks},
+  eprint      = {1406:2661},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.},
+  keywords    = {gan, dgm, new-model},
+}
+
+@Article{Hoogeboom2019,
+  author      = {Hoogeboom, E. and van den Berg, R. and Welling, M.},
+  date        = {2019-01-30},
+  title       = {Emerging Convolutions for Generative Normalizing Flows},
+  eprint      = {1901.11137},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Generative flows are attractive because they admit exact likelihood optimization and efficient image synthesis. Recently, Kingma & Dhariwal (2018) demonstrated with Glow that generative flows are capable of generating high quality images. We generalize the 1 x 1 convolutions proposed in Glow to invertible d x d convolutions, which are more flexible since they operate on both channel and spatial axes. We propose two methods to produce invertible convolutions that have receptive fields identical to standard convolutions: Emerging convolutions are obtained by chaining specific autoregressive convolutions, and periodic convolutions are decoupled in the frequency domain. Our experiments show that the flexibility of d x d convolutions significantly improves the performance of generative flow models on galaxy images, CIFAR10 and ImageNet.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Meng2020,
+  author      = {Meng, C. and Song, Y. and Song, J. and Ermon, S.},
+  date        = {2020-03-04},
+  title       = {Gaussianization Flows},
+  eprint      = {2003.01941},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Iterative Gaussianization is a fixed-point iteration procedure that can transform any continuous random vector into a Gaussian one.
+Based on iterative Gaussianization, we propose a new type of normalizing flow model
+that enables both efficient computation of likelihoods and efficient inversion for sample generation. We demonstrate that these models,
+named Gaussianization flows, are universal
+approximators for continuous probability distributions under some regularity conditions.
+Because of this guaranteed expressivity, they
+can capture multimodal target distributions
+without compromising the efficiency of sample generation. Experimentally, we show that
+Gaussianization flows achieve better or comparable performance on several tabular datasets
+compared to other efficiently invertible flow
+models such as Real NVP, Glow and FFJORD.
+In particular, Gaussianization flows are easier
+to initialize, demonstrate better robustness
+with respect to different transformations of
+the training data, and generalize better on
+small training sets.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Rezende2020,
+  author      = {Rezende, D. J. and Papamakarios, G. and Racani\`{e}re, S. and Albergo, M. S. and Kanwar, G. and Shanahan, P. E. and Cranmer, K.},
+  date        = {2020-02-06},
+  title       = {Normalizing Flows on Tori and Spheres},
+  eprint      = {2002.02428},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {Normalizing flows are a powerful tool for building expressive distributions in high dimensions.
+So far, most of the literature has concentrated on
+learning flows on Euclidean spaces. Some problems however, such as those involving angles, are
+defined on spaces with more complex geometries,
+such as tori or spheres. In this paper, we propose
+and compare expressive and numerically stable
+flows on such spaces. Our flows are built recursively on the dimension of the space, starting from
+flows on circles, closed intervals or spheres.},
+  keywords    = {flows, non-eucl, dgm, new-model},
+}
+
+@Article{Albergo2019,
+  author       = {Albergo, M. S. and Kanwar, G. and Shanahan, P. E.},
+  date         = {2019-08-22},
+  journaltitle = {Phys. Rev. D},
+  title        = {Flow-based generative models for {Markov chain Monte Carlo} in lattice field theory},
+  eprint       = {1904.12072},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  pages        = {034515},
+  volume       = {100},
+  abstract     = {A Markov chain update scheme using a machine-learned flow-based generative model is proposed for Monte Carlo sampling in lattice field theories. The generative model may be optimized (trained) to produce samples from a distribution approximating the desired Boltzmann distribution determined by the lattice action of the theory being studied. Training the model systematically improves autocorrelation times in the Markov chain, even in regions of parameter space where standard Markov chain Monte Carlo algorithms exhibit critical slowing down in producing decorrelated updates. Moreover, the model may be trained without existing samples from the desired distribution. The algorithm is compared with HMC and local Metropolis sampling for ϕ4 theory in two dimensions.},
+  keywords     = {lattice, flows, phi4, ml, mcmc, dgm},
+}
+
+@Misc{Kanwar2020,
+  author      = {Kanwar, G. and Albergo, M. S. and Boyda, D. and Cranmer, K. and Hackett, D. C. and Racani\`{e}re, S. and Rezende, D. J. and Shanahan, P. E.},
+  date        = {2020-03-13},
+  title       = {Equivariant flow-based sampling for lattice gauge theory},
+  eprint      = {2003.06413},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  abstract    = {We define a class of machine-learned flow-based sampling algorithms for lattice gauge theories
+that are gauge-invariant by construction. We demonstrate the application of this framework to
+U(1) gauge theory in two spacetime dimensions, and find that near critical points in parameter
+space the approach is orders of magnitude more efficient at sampling topological quantities than
+more traditional sampling procedures such as Hybrid Monte Carlo and Heat Bath.},
+  keywords    = {lattice, flows, ml, u1, mcmc, dgm},
+}
+
+@Misc{Bengio2012,
+  author      = {Bengio, Y. and Courville, A. and Vincent, P.},
+  date        = {2012-06-24},
+  title       = {Representation Learning: A Review and New Perspectives},
+  eprint      = {1206.5538},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different ex- planatory factors of variation behind the data. Although specific domain knowledge can be used to help design representations, learning with generic priors can also be used, and the quest for AI is motivating the design of more powerful representation-learning algorithms imple- menting such priors. This paper reviews recent work in the area of unsupervised feature learning and deep learning, covering advances in probabilistic models, auto-encoders, manifold learning, and deep networks. This motivates longer-term unanswered questions about the appropriate objectives for learning good representations, for computing representations (i.e., inference), and the geometrical connections be- tween representation learning, density estimation and manifold learning. Index Terms—Deep learning, representation learning, feature learning, unsupervised learning, Boltzmann Machine, autoencoder, neural nets 1 INTRODUCTION The performance of machine learning methods is heavily dependent on the choice of data representation (or features) on which they are applied. For that reason, much of the actual effort in deploying machine learning algorithms goes into the design of preprocessing pipelines and data transformations that result in a representation of the data that can support effective machine learning. Such feature engineering is important but labor-intensive and highlights the weakness of current learning algorithms: their inability to extract and organize the discrimi- native information from the data. Feature engineering is a way to take advantage of human ingenuity and prior knowledge to compensate for that weakness. In order to expand the scope and ease of applicability of machine learning, it would be highly desirable to make learning algorithms less dependent on feature engineering, so that novel applications could be constructed faster, and more importantly, to make progress towards Artifi cial Intelligence (AI). An AI must fundamentally understand the world around us, and we argue that this can only be achieved if it can learn to identify and disentangle the underlying explanatory factors hidden in the observed milieu of low-level sensory data. This paper is about representation learning, i.e., learning representations of the data that make it easier to extract useful information when building classifi ers or other predictors. In the case of probabilistic models, a good representation is often one that captures the posterior distribution of the underlying explanatory factors for the observed input. A good representa- tion is also one that is useful as input to a supervised predictor. Among the various ways of learning representations, this paper focuses on deep learning methods: those that are formed by the composition of multiple non-linear transformations, with the goal of yielding more abstract – and ultimately more useful – representations. Here we survey this rapidly developing area with special emphasis on recent progress. We consider some of the fundamental questions that have been driving research in this area. Specifi cally, what makes one representation better than another? Given an example, how should we compute its representation, i.e. perform feature extraction? Also, what are appropriate objectives for learning good representations? 2 WHY SHOULD WE CARE ABOUT LEARNING},
+  keywords    = {review, ml, dgm},
+}
+
+@Misc{Gemici2016,
+  author      = {Gemici, M. C. and Rezende, D. J. and Mohamed, S.},
+  date        = {2016-11-07},
+  title       = {Normalizing Flows on {Riemannian} Manifolds},
+  eprint      = {1611.02304},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {We consider the problem of density estimation on Riemannian manifolds. Density estimation on manifolds has many applications in fluid-mechanics, optics and plasma physics and it appears often when dealing with angular variables (such as used in protein folding, robot limbs, gene-expression) and in general directional statistics. In spite of the multitude of algorithms available for density estimation in the Euclidean spaces Rn that scale to large n (e.g. normalizing flows, kernel methods and variational approximations), most of these methods are not immediately suitable for density estimation in more general Riemannian manifolds. We revisit techniques related to homeomorphisms from differential geometry for projecting densities to sub-manifolds and use it to generalize the idea of normalizing flows to more general Riemannian manifolds. The resulting algorithm is scalable, simple to implement and suitable for use with automatic differentiation. We demonstrate concrete examples of this method on the n-sphere Sn.},
+  keywords    = {flows, non-eucl, dgm, new-model},
+}
+
+@Misc{Rezende2015,
+  author      = {Rezende, D. J. and Mohamed, S.},
+  date        = {2015-05-21},
+  title       = {Variational Inference with Normalizing Flows},
+  eprint      = {1505.05770},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {The choice of approximate posterior distribution is one of the core problems in variational inference. Most applications of variational inference employ simple families of posterior approximations in order to allow for efficient inference, focusing on mean-field or other simple structured approximations. This restriction has a significant impact on the quality of inferences made using variational methods. We introduce a new approach for specifying flexible, arbitrarily complex and scalable approximate posterior distributions. Our approximations are distributions constructed through a normalizing flow, whereby a simple initial density is transformed into a more complex one by applying a sequence of invertible transformations until a desired level of complexity is attained. We use this view of normalizing flows to develop categories of finite and infinitesimal flows and provide a unified view of approaches for constructing rich posterior approximations. We demonstrate that the theoretical advantages of having posteriors that better match the true posterior, combined with the scalability of amortized variational approaches, provides a clear improvement in performance and applicability of variational inference.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Wu2020,
+  author      = {Wu, H. and K\"{o}ller, J. and No\'{e}, F.},
+  date        = {2020-02-16},
+  title       = {Stochastic Normalizing Flows},
+  eprint      = {2002.06707},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {Normalizing flows are popular generative learning methods that train an invertible function to transform a simple prior distribution into a complicated target distribution. Here we generalize the framework by introducing Stochastic Normalizing Flows (SNF) - an arbitrary sequence of deterministic invertible functions and stochastic processes such as Markov Chain Monte Carlo (MCMC) or Langevin Dynamics. This combination can be powerful as adding stochasticity to a flow helps overcoming expressiveness limitations of a chosen deterministic invertible function, while the trainable flow transformations can improve the sampling efficiency over pure MCMC. Key to our approach is that we can match a marginal target density without having to marginalize out the stochasticity of traversed paths. Invoking ideas from nonequilibrium statistical mechanics, we introduce a training method that only uses conditional path probabilities. We can turn an SNF into a Boltzmann Generator that samples asymptotically unbiased from a given target density by importance sampling of these paths. We illustrate the representational power, sampling efficiency and asymptotic correctness of SNFs on several benchmarks.},
+  keywords    = {flows, ml, mcmc, dgm},
+}
+
+@Misc{Nicoli2020,
+  author      = {Nicoli, K. A. and Anders, C. J. and Funcke, L. and Hartung, T. and Jansen, K. and Kessel, P. and Nakajima, S. and Stornati, P.},
+  date        = {2020-07-14},
+  title       = {On Estimation of Thermodynamic Observables in Lattice Field Theories with Deep Generative Models},
+  eprint      = {2007.07115},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  abstract    = {In this work, we demonstrate that applying deep generative machine learning models for lattice field theory is a promising route for solving problems where Markov Chain Monte Carlo (MCMC) methods are problematic. More specifically, we show that generative models can be used to estimate the absolute value of the free energy, which is in contrast to existing MCMC-based methods which are limited to only estimate free energy differences. We demonstrate the effectiveness of the pro- posed method for two-dimensional φ4 theory and compare it to MCMC-based methods in detailed numerical experiments. Introduction. The free energy of a physical system is of great importance since it can be related to several thermodynamical observables. In particular, at non-zero temperature, it allows to compute the entropy, the pres- sure or, more generally, the equation of state of the con- sidered physical system. For example, QCD at high tem- perature –as a generic strongly interacting field theory– plays an essential role in the physics of the early universe and is now extensively probed in large-scale heavy ion experiments [1]. Hence, knowing such thermodynamic quantities from QCD alone is of very high relevance. The main tool to study strongly-coupled field theories, such as QCD, is to discretize them on a spacetime lat- tice and use Monte-Carlo Markov-Chain (MCMC) meth- ods to numerically calculate the relevant physical quan- tities. Unfortunately, these thermodynamical quantities are challenging to compute using existing MCMC meth- ods. The fundamental difficulty is that MCMC is not able to directly estimate the partition function of the lattice field theory. Therefore, the absolute value of the free energy cannot be estimated straightforwardly. Instead, there are a number of MCMC methods to es- timate differences of free energies. One typically chooses a free energy difference ∆F = Fb − Fa such that Fa is known either exactly or approximately. One can then deduce the value of the free energy Fb = ∆F + Fa at the desired point in parameter space. If the free energy Fa is only known approximately, this induces an unwanted sys- tematic error. In other situations, such a starting point Fa may not even be available. Most of the methods to estimate ∆F rely on integrating a derivative of the parti- tion function over a trajectory in the parameter space of the lattice field theory [2]. Alternatively, one can use a reweighting procedure to calculate free energy differences between neighbouring points of the discretized trajectory and then sum them up [2, 3]. These approaches require simulations at each parameter point of the discretized},
+  keywords    = {lattice, flows, phi4, ml, dgm},
+}
+
+@Misc{Kobyzev2019,
+  author      = {Kobyzev, I. and Prince, S. J. D. and Brubaker, M. A.},
+  date        = {2019-08-25},
+  title       = {Normalizing Flows: An Introduction and Review of Current Methods},
+  eprint      = {1908.09257},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {Normalizing Flows are generative models which produce tractable distributions where both sampling and density evaluation can be efficient and exact. The goal of this survey article is to give a coherent and comprehensive review of the literature around the construction and use of Normalizing Flows for distribution learning. We aim to provide context and explanation of the models, review current state-of-the-art literature, and identify open questions and promising future directions.},
+  keywords    = {review, flows},
+}
+
+@Misc{Carleo2019,
+  author      = {Carleo, G. and Cirac, I. and Cranmer, K. and Daudet, L. and Schuld, M. and Tishby, N. and Vogt-Maranto, L. and Zdeborov\'{a}, L.},
+  date        = {2019-03-25},
+  title       = {Machine learning and the physical sciences},
+  eprint      = {1903.10563},
+  eprintclass = {physics.comp-ph},
+  eprinttype  = {arXiv},
+  abstract    = {Machine learning encompasses a broad range of algorithms and modeling tools used for a vast array of data processing tasks, which has entered most scientific disciplines in recent years. We review in a selective way the recent research on the interface between machine learning and physical sciences. This includes conceptual developments in machine learning (ML) motivated by physical insights, applications of machine learning techniques to several domains in physics, and cross-fertilization between the two fields. After giving basic notion of machine learning methods and principles, we describe examples of how statistical physics is used to understand methods in ML. We then move to describe applications of ML methods in particle physics and cosmology, quantum many body physics, quantum computing, and chemical and material physics. We also highlight research and development into novel computing architectures aimed at accelerating ML. In each of the sections we describe recent successes as well as domain-specific methodology and challenges.},
+  file        = {:/home/joe/texts/Carleo2019.pdf:PDF},
+  keywords    = {review, ml},
+}
+
+@Article{Wilson1974,
+  author       = {Wilson, K.},
+  date         = {1974-10-15},
+  journaltitle = {Phys. Rev. D},
+  title        = {Confinement of Quarks},
+  pages        = {2445},
+  volume       = {10},
+  abstract     = {A mechanism for total confinement of quarks, similar to that of Schwinger, is defined which requires the existence of Abelian or non-Abelian gauge fields. It is shown how to quantize a gauge field theory on a discrete lattice in Euclidean space-time, preserving exact gauge invariance and treating the gauge fields as angular variables (which makes a gauge-fixing term unnecessary). The lattice gauge theory has a computable strong-coupling limit; in this limit the binding mechanism applies and there are no free quarks. There is unfortunately no Lorentz (or Euclidean) invariance in the strong-coupling limit. The strong-coupling expansion involves sums over all quark paths and sums over all surfaces (on the lattice) joining quark paths. This structure is reminiscent of relativistic string models of hadrons.},
+  keywords     = {lattice, historical, quarks, qcd},
+}
+
+@Article{Creutz1979,
+  author       = {Creutz, M. and Jacobs, L. and Rebbi, C.},
+  date         = {1979-05-21},
+  journaltitle = {Phys. Rev. Lett.},
+  title        = {Experiments with a Gauge-Invariant {Ising} System},
+  number       = {21},
+  pages        = {1390},
+  volume       = {42},
+  keywords     = {historical, lattice, ising},
+}
+
+@Article{Hamber1981,
+  author       = {Hamber, H. W. and Parisi, G.},
+  date         = {1981-12-21},
+  journaltitle = {Phys. Rev. Lett.},
+  title        = {Numerical Estimates of Hadronic Masses in Pure {SU(3)} Gauge Theory},
+  number       = {25},
+  pages        = {1792-1795},
+  volume       = {47},
+  abstract     = {In lattice quantum chromodynamics, the hadronic mass spectrum is evaluated by computer simulations in the approximation where closed quark loops are neglected. Chiral symmetry is shown to be spontaneously broken and an estimate of the pion decay constant is given.},
+  keywords     = {historical, lattice, su3},
+}
+
+@Article{Weingarten1981,
+  author       = {Weingarten, D.},
+  date         = {1981-10-13},
+  journaltitle = {Phys. Lett. B},
+  title        = {{Monte Carlo} Evaluation of Hadron Masses in Lattice Gauge Theories with Fermions},
+  number       = {1, 2},
+  pages        = {57-62},
+  volume       = {109},
+  abstract     = {An improved Monte Carlo method is presented for lattice gauge theories with fermions. Taking the pion mass and meson Regge trajectory slope as input, this procedure is used to calculate the rho mass on lattices up to 124 for gauge group I, the best discrete approximation to SU(2). The final result is mp = 670 ± 100 MeV. Arguments are given to show that this prediction would be changed by replacing I by SU(2) or SU(3).},
+  keywords     = {historical, lattice, fermions},
+}
+
+@Article{Hastings1970,
+  author       = {Hastings, W. K.},
+  date         = {1970-04},
+  journaltitle = {Biometrika},
+  title        = {{Monte Carlo} Sampling Methods Using {Markov} Chains and Their Applications},
+  number       = {1},
+  pages        = {97-109},
+  volume       = {57},
+  keywords     = {local, historical, mcmc},
+}
+
+@Article{Metropolis1953,
+  author       = {Metropolis, N and Rosenbluth, A. W. and Rosenbluth, M. N. and Teller, A. H. and Teller, E.},
+  date         = {1953-03-06},
+  journaltitle = {J. Chem. Phys.},
+  title        = {Equation of State Calculations by Fast Computing Machines},
+  number       = {6},
+  pages        = {1087-1092},
+  volume       = {21},
+  keywords     = {local, historical, mcmc},
+}
+
+@Article{Swendsen1987,
+  author       = {Swendsen, R. H. and Wang, J. S.},
+  date         = {1987-01-12},
+  journaltitle = {Phys. Rev. Lett.},
+  title        = {Nonuniversal Critical Dynamics in {Monte Carlo} Simulations},
+  number       = {2},
+  pages        = {86-88},
+  volume       = {58},
+  keywords     = {mcmc, collective},
+}
+
+@Article{Wolff1989,
+  author       = {Wolff, U.},
+  date         = {1989-01-23},
+  journaltitle = {Phys. Rev. Lett.},
+  title        = {Collective {Monte Carlo} Updating for Spin Systems},
+  number       = {4},
+  pages        = {361-364},
+  volume       = {62},
+  keywords     = {lattice, mcmc, collective},
+}
+
+@Article{Montvay1988,
+  author       = {Montvay, I. and M\"{u}nster, G. and Wolff, U.},
+  date         = {1988-04-25},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Percolation Cluster Algorithm and Scaling Behaviour in the 4-Dimensional {Ising} Model},
+  pages        = {143-153},
+  volume       = {305},
+  keywords     = {ising, lattice, mcmc},
+}
+
+@Article{Adler1981,
+  author       = {Adler, S. L.},
+  date         = {1981-06-15},
+  journaltitle = {Phys. Rev. D},
+  title        = {Over-relaxation method for the {Monte Carlo} evaluation of the partition function for multiquadratic actions},
+  number       = {12},
+  pages        = {2901-2904},
+  volume       = {23},
+  keywords     = {local, historical, lattice, mcmc},
+}
+
+@Article{Petronzio1991,
+  author       = {Petronzio, R. and Vicari, E.},
+  date         = {1991-01-24},
+  journaltitle = {Phys. Lett. B},
+  title        = {An overheat bath algorithm for lattice gauge theories},
+  number       = {3, 4},
+  pages        = {444-448},
+  volume       = {254},
+  keywords     = {local, lattice, mcmc},
+}
+
+@Article{Feynman1948,
+  author       = {Feynman, R. P.},
+  date         = {1948-04},
+  journaltitle = {Rev. Mod. Phys.},
+  title        = {Space-Time Approach to Non-Relativistic Quantum Mechanics},
+  number       = {2},
+  pages        = {367-387},
+  volume       = {20},
+  keywords     = {historical, path-int, qft},
+}
+
+@Article{Kac1949,
+  author       = {Kac, M.},
+  date         = {1949-01},
+  journaltitle = {Transactions of the American Mathematical Society},
+  title        = {On Distributions of Certain {Wiener} Functionals},
+  number       = {1},
+  pages        = {1-13},
+  volume       = {65},
+  keywords     = {historical, maths, path-int},
+}
+
+@Article{Wick1954,
+  author       = {Wick, G. C.},
+  date         = {1954-11-15},
+  journaltitle = {Phys. Rev.},
+  title        = {Properties of {Bethe-Salpeter} Wave Functions},
+  number       = {4},
+  pages        = {1124-1134},
+  volume       = {96},
+  keywords     = {historical, maths},
+}
+
+@Article{LeCun1998,
+  author       = {LeCun, Y. and Bottou, L. and Bengio, Y. and Haffner, P.},
+  date         = {1998-11},
+  journaltitle = {Proceedings of the IEEE},
+  title        = {Gradient-Based Learning Applied to Document Recognition},
+  number       = {11},
+  pages        = {2278-2324},
+  volume       = {86},
+  keywords     = {optim, ml},
+}
+
+@Online{MNIST,
+  author   = {LeCun, Y. and Cortes, C. and Burges, B.},
+  date     = {1998},
+  title    = {The {MNIST} Handwritten Digit Database},
+  url      = {yann.lecun.com/exdb/mnist/},
+  keywords = {dataset, ml},
+}
+
+@Misc{Grathwohl2018,
+  author      = {Grathwohl, W. and Chen, R. T. Q. and Bettencourt, J. and Sutskever, I. and Duvenaud, D.},
+  date        = {2018-10-02},
+  title       = {{FFJORD}: Free-form Continuous Dynamics for Scalable Reversible Generative Models},
+  eprint      = {1810.01367},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {A promising class of generative models maps points from a simple distribution to a complex distribution through an invertible neural network. Likelihood-based training of these models requires restricting their architectures to allow cheap computation of Jacobian determinants. Alternatively, the Jacobian trace can be used if the transformation is specified by an ordinary differential equation. In this paper, we use Hutchinson's trace estimator to give a scalable unbiased estimate of the log-density. The result is a continuous-time invertible generative model with unbiased density estimation and one-pass sampling, while allowing unrestricted neural network architectures. We demonstrate our approach on high-dimensional density estimation, image generation, and variational inference, achieving the state-of-the-art among exact likelihood methods with efficient sampling.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Papamakarios2017,
+  author      = {Papamakarios, G. and Pavlakou, T. and Murray, I.},
+  date        = {2017-05-19},
+  title       = {Masked Autoregressive Flow for Density Estimation},
+  eprint      = {1705.07057},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {Autoregressive models are among the best performing neural density estimators. We describe an approach for increasing the flexibility of an autoregressive model, based on modelling the random numbers that the model uses internally when generating data. By constructing a stack of autoregressive models, each modelling the random numbers of the next model in the stack, we obtain a type of normalizing flow suitable for density estimation, which we call Masked Autoregressive Flow. This type of flow is closely related to Inverse Autoregressive Flow and is a generalization of Real NVP. Masked Autoregressive Flow achieves state-of-the-art performance in a range of general-purpose density estimation tasks.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Oliva2018,
+  author      = {Oliva, J. N. and Dubey, A. and Zaheer, M. and P\'{o}czos, B. and Salakhutdinov, R. and Xing, E. P. and Schneider, J.},
+  date        = {2018-01-30},
+  title       = {Transformation Autoregressive Networks},
+  eprint      = {1801.09819},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {The fundamental task of general density estimation p(x) has been of keen interest to machine learning. In this work, we attempt to systematically characterize methods for density estimation. Broadly speaking, most of the existing methods can be categorized into either using: \textit{a}) autoregressive models to estimate the conditional factors of the chain rule, p(xi|xi−1,…); or \textit{b}) non-linear transformations of variables of a simple base distribution. Based on the study of the characteristics of these categories, we propose multiple novel methods for each category. For example we proposed RNN based transformations to model non-Markovian dependencies. Further, through a comprehensive study over both real world and synthetic data, we show for that jointly leveraging transformations of variables and autoregressive conditional models, results in a considerable improvement in performance. We illustrate the use of our models in outlier detection and image modeling. Finally we introduce a novel data driven framework for learning a family of distributions.},
+  file        = {:/home/joe/texts/Neural-nets/Oliva2018.pdf:PDF},
+  keywords    = {dgm, autoreg, new-model},
+}
+
+@Misc{Huang2018,
+  author      = {Huang, C. W. and Krueger, D. and Lacoste, A. and Courville, A.},
+  date        = {2018-04-03},
+  title       = {Neural Autoregressive Flows},
+  eprint      = {1804.00779},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Normalizing flows and autoregressive models have been successfully combined to produce state-of-the-art results in density estimation, via Masked Autoregressive Flows (MAF), and to accelerate state-of-the-art WaveNet-based speech synthesis to 20x faster than real-time, via Inverse Autoregressive Flows (IAF). We unify and generalize these approaches, replacing the (conditionally) affine univariate transformations of MAF/IAF with a more general class of invertible univariate transformations expressed as monotonic neural networks. We demonstrate that the proposed neural autoregressive flows (NAF) are universal approximators for continuous probability distributions, and their greater expressivity allows them to better capture multimodal target distributions. Experimentally, NAF yields state-of-the-art performance on a suite of density estimation tasks and outperforms IAF in variational autoencoders trained on binarized MNIST.},
+  keywords    = {flows, dgm, new-model, autoreg},
+}
+
+@Misc{Kingma2014,
+  author      = {Kingma, D. P. and Ba, J.},
+  date        = {2014-12-22},
+  title       = {Adam: A Method for Stochastic Optimization},
+  eprint      = {1412.6980},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+  keywords    = {optim, ml},
+}
+
+@Misc{Kingma2013,
+  author      = {Kingma, D. P. and Welling, M.},
+  date        = {2013-12-20},
+  title       = {Auto-Encoding Variational {Bayes}},
+  eprint      = {1312.6114},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {How can we perform efficient inference and learning in directed probabilistic models, in the presence of continuous latent variables with intractable posterior distributions, and large datasets? We introduce a stochastic variational inference and learning algorithm that scales to large datasets and, under some mild differentiability conditions, even works in the intractable case. Our contributions is two-fold. First, we show that a reparameterization of the variational lower bound yields a lower bound estimator that can be straightforwardly optimized using standard stochastic gradient methods. Second, we show that for i.i.d. datasets with continuous latent variables per datapoint, posterior inference can be made especially efficient by fitting an approximate inference model (also called a recognition model) to the intractable posterior using the proposed lower bound estimator. Theoretical advantages are reflected in experimental results.},
+  keywords    = {dgm, vae, optim},
+}
+
+@Article{Boyle2004,
+  author       = {Boyle, P. A. and Chen, D. and Christ, N. H. and Clark, M. and Cohen, S. D. and Cristian, C. and Dong, Z. and Gara, A. and Joo, B. and Jung, C. and Kim, C. and Levkova, L. and Liao, X. and Liu, G. and Mawhinney, R. D. and Ohta, S. and Petrov, K. and Wettig, T. and Yamaguchi, A.},
+  date         = {2004-07-26},
+  journaltitle = {IEEE/ACM SC2004 Conference, Proceedings},
+  title        = {{QCDOC}: A 10 Teraflops Computer for Tightly-coupled Calculations},
+  keywords     = {hpc, computing, lattice},
+}
+
+@Article{Chen2001,
+  author       = {D. Chen and N.H. Christ and C. Cristian and Z. Dong and A. Gara and K. Garg and B. Joo and C. Kim and L. Levkova and X. Liao and R.D. Mawhinney and S. Ohta and T. Wettig},
+  date         = {2001-03},
+  journaltitle = {Nucl. Phys. B (Proc. Suppl.)},
+  title        = {{QCDOC}: A 10-teraflops scale computer for lattice {QCD}},
+  issue        = {1-3},
+  number       = {1},
+  pages        = {825 - 832},
+  volume       = {94},
+  abstract     = {The architecture of a new class of computers, optimized for lattice QCD calculations, is described. An individual node is based on a single integrated circuit containing a PowerPC 32-bit integer processor with a 1 Gflops 64-bit IEEE floating point unit, 4 Mbyte of memory, 8 Gbit/sec nearest-neighbor communications and additional control and diagnostic circuitry. The machine's name, QCDOC, derives from “QCD On a Chip”.},
+  keywords     = {hpc, computing, lattice},
+}
+
+@Article{Adiga2002,
+  author       = {Adiga, N. R. and others},
+  date         = {2002},
+  journaltitle = {IEEE Supercomputing (SC)},
+  title        = {An Overview of the {Blue Gene/L} Supercomputer},
+  keywords     = {hpc, computing},
+}
+
+@Article{Mawhinney1999,
+  author       = {Mawhinney, R. D.},
+  date         = {1999-09},
+  journaltitle = {Parallel Computing},
+  title        = {The 1 Teraflops {QCDSP} computer},
+  issue        = {10-11},
+  pages        = {1281-1296},
+  volume       = {25},
+  keywords     = {hpc, computing},
+}
+
+@Article{Wolff1990,
+  author       = {Wolff, U.},
+  date         = {1990},
+  journaltitle = {Nucl. Phys. B (Proc. Suppl.)},
+  title        = {Critical Slowing Down},
+  pages        = {93-102},
+  volume       = {18},
+  keywords     = {csd, mcmc},
+}
+
+@Article{DelDebbio2004,
+  author       = {Del Debbio, L. and Manca, G. M. and Vicari, E.},
+  date         = {2004-08-05},
+  journaltitle = {Phys. Lett. B},
+  title        = {Critical slowing down of topological modes},
+  issue        = {3-4},
+  pages        = {315-323},
+  volume       = {594},
+  keywords     = {cpn, topology, lattice, csd},
+}
+
+@Article{Bonati2018a,
+  author       = {Bonati, C. and D'Elia, M.},
+  date         = {2018-07-01},
+  journaltitle = {Phys. Rev. E},
+  title        = {Topological critical slowing down: variations on a toy model},
+  issue        = {1},
+  pages        = {013308},
+  volume       = {98},
+  keywords     = {csd, topology, lattice},
+}
+
+@Article{Alles1996,
+  author       = {All\'{e}s, B. and Boyd, G. and D'Elia, M. and Di Giacomo, A. and Vicari, E.},
+  date         = {1996-12-05},
+  journaltitle = {Phys. Lett. B},
+  title        = {Hybrid {Monte Carlo} and topological modes of full {QCD}},
+  issue        = {1},
+  pages        = {107-111},
+  volume       = {389},
+  keywords     = {hmc, topology, lattice, qcd},
+}
+
+@Article{Schaefer2011,
+  author       = {Schaefer, S. and Sommer, R. and Virotta, F.},
+  date         = {2011-04-01},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Critical slowing down and error analysis in lattice {QCD} simulations},
+  issue        = {1},
+  pages        = {93-119},
+  volume       = {845},
+  keywords     = {csd, qcd, lattice},
+}
+
+@Article{Campostrini1992,
+  author       = {Campostrini, M. and Rossi, P. and Vicari, E.},
+  date         = {1992-09-15},
+  journaltitle = {Phys. Rev. D},
+  title        = {{Monte Carlo} simulation of {$\mathbb{CP}^{N-1}$} models},
+  number       = {6},
+  pages        = {2647-2662},
+  volume       = {46},
+  keywords     = {cpn, lattice},
+}
+
+@Misc{Flynn2015,
+  author      = {Flynn, J. and J\"{u}ttner, A. and Lawson, A. and Sanfilippo, F.},
+  date        = {2015-04-23},
+  title       = {Precision study of critical slowing down in lattice simulations of the {$\mathbb{CP}^{N-1}$} model},
+  eprint      = {1504.06292},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  keywords    = {cpn, csd, lattice},
+}
+
+@Article{Kennedy1991,
+  author       = {Kennedy, A. D. and Pendleton, B. J.},
+  date         = {1991-05-20},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Acceptances and autocorrelations in hybrid {Monte Carlo}},
+  pages        = {118-121},
+  volume       = {20},
+  keywords     = {hmc, mcmc},
+}
+
+@Article{Kusnezov1993,
+  author       = {Kusnezov, D. and Sloan, J.},
+  date         = {1993-07-26},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Global demons in field theory. Critical slowing down in the {XY} model},
+  pages        = {635-662},
+  volume       = {409},
+  keywords     = {collective, lattice, mcmc},
+}
+
+@Article{Bonati2018b,
+  author       = {Bonati, C. and D'Elia, M. and Martinelli, G. and Negro, F. and Sanfilippo, F. and Todaro, A.},
+  date         = {2018-11},
+  journaltitle = {J. High Energy Phys.},
+  title        = {Topology in full {QCD} at high temperature: a multicanonical approach},
+  volume       = {11},
+  keywords     = {lattice, mcmc, topology, qcd},
+}
+
+@Article{Cabibbo1982,
+  author       = {Cabibbo, N. and Marinari, E.},
+  date         = {1982-12-23},
+  journaltitle = {Phys. Lett. B},
+  title        = {A new method for updating {SU(N)} matrices in computer simulations of gauge theories},
+  issue        = {4-6},
+  pages        = {387-390},
+  volume       = {119},
+  keywords     = {lattice, mcmc, sun},
+}
+
+@Article{Marinari1992,
+  author       = {Marinari, E. and Parisi, G.},
+  date         = {1992-07-15},
+  journaltitle = {Europhys. Lett.},
+  title        = {Simulated tempering: a new {Monte Carlo} scheme},
+  issue        = {6},
+  pages        = {451},
+  volume       = {19},
+  keywords     = {mcmc},
+}
+
+@Article{DelDebbio2002,
+  author       = {Del Debbio, L. and Panagopoulos, H. and Rossi, P. and Vicari, E.},
+  date         = {2002-01-23},
+  journaltitle = {J. High Energy Phys.},
+  title        = {Spectrum of confining strings in {SU(N)} gauge theories},
+  number       = {01},
+  volume       = {2002},
+  keywords     = {lattice, sun},
+}
+
+@Article{Vicari1993,
+  author       = {Vicari, E.},
+  date         = {1993-03-18},
+  journaltitle = {Phys. Lett. B},
+  title        = {Monte Carlo simulation of lattice {$\mathbb{CP}^{N-1}$} models at large {$N$}},
+  pages        = {139-144},
+  volume       = {309},
+  keywords     = {cpn, lattice},
+}
+
+@Article{Cranmer2018,
+  author       = {Cranmer, K. and Gadatsch, S. and Ghosh, A. and Golling, T. and Louppe, G. Rousseau, D. and Salamani, D. and Stewart, G.},
+  date         = {2018-10-29},
+  journaltitle = {14th eScience IEEE International Conference},
+  title        = {Deep Generative Models for Fast Shower Simulation in {ATLAS}},
+  pages        = {348},
+  keywords     = {ml, dgm},
+}
+
+@Misc{Liu2017b,
+  author      = {Liu, Z. and Rodrigues, S. P. and Cai, W.},
+  date        = {2017-10-13},
+  title       = {Simulating the {Ising} Model with a Deep Convolutional Generative Adversarial Network},
+  eprint      = {1710.04987},
+  eprintclass = {cond-mat.dis-nn},
+  eprinttype  = {arXiv},
+  keywords    = {lattice, ising, gan, dgm, ml},
+}
+
+@Misc{Regier2015,
+  author      = {Regier, J. and Miller, A. and McAuliffe, J. and Adams, R. and Hoffman, M. and Lang, D. and Schlegel, D. and Prabhat},
+  date        = {2015-06-03},
+  title       = {Celeste: Variational inference for a generative model of astronomical images},
+  eprint      = {1506.01351},
+  eprintclass = {astro-ph.IM},
+  eprinttype  = {arXiv},
+  keywords    = {dgm, ml},
+}
+
+@Misc{Regier2018,
+  author      = {Regier, J. and Miller, A. C. and Schlegel, D. and Adams, R. P. and McAuliffe, J. D. and Prabhat},
+  date        = {2018-02-28},
+  title       = {Approximate Inference for Constructing Astronomical Catalogs from Images},
+  eprint      = {1803.00113},
+  eprintclass = {stat.AP},
+  eprinttype  = {arXiv},
+  keywords    = {dgm, ml},
+}
+
+@Misc{Mustafa2017,
+  author      = {Mustafa, M. and Bard, D. and Bhimji, W. and Luki\'{c} and Al-Rfou, R. and Kratochvil, J. M.},
+  date        = {2017-06-07},
+  title       = {{CosmoGAN}: creating high-fidelity weak lensing convergence maps using Generative Adversarial Networks},
+  eprint      = {1706.02390},
+  eprintclass = {astro-ph.IM},
+  eprinttype  = {arXiv},
+  keywords    = {gan, ml, dgm},
+}
+
+@Misc{Wang2018,
+  author   = {Wang, L.},
+  date     = {2018-11-05},
+  title    = {Generative Models for Physicists},
+  url      = {https://wangleiphy.github.io/lectures/PILtutorial.pdf},
+  urldate  = {2020-07-22},
+  keywords = {pedag, review, ml, dgm},
+}
+
+@Misc{Singh2020,
+  author      = {Singh, J. and Arora, V. and Gupta, V. and Scheurer, M. S.},
+  date        = {2020-06-21},
+  title       = {Generative models for sampling and phase transition indication in spin systems},
+  eprint      = {2006.11868},
+  eprintclass = {cond-mat.stat-mech},
+  eprinttype  = {arXiv},
+  keywords    = {dgm, ml, mcmc, n-spin},
+}
+
+@Misc{Wang2020,
+  author      = {Wang, L. and Jiang, Y. and He, L. and Zhou, K.},
+  date        = {2020-05-01},
+  title       = {Recognizing the topological phase transition by Variational Autoregressive Networks},
+  eprint      = {2005.04857},
+  eprintclass = {cond-mat.dis-nn},
+  eprinttype  = {arXiv},
+  abstract    = {We develop deep autoregressive networks with multi channels to compute many-body systems with \emph{continuous} spin degrees of freedom directly. As a concrete example, we embed the two-dimensional XY model into the continuous-mixture networks and rediscover the Kosterlitz-Thouless (KT) phase transition on a periodic square lattice. Vortices characterizing the quasi-long range order are accurately detected by the autoregressive neural networks. By learning the microscopic probability distributions from the macroscopic thermal distribution, the neural networks compute the free energy directly and find that free vortices and anti-vortices emerge in the high-temperature regime. As a more precise evaluation, we compute the helicity modulus to determine the KT transition temperature. Although the training process becomes more time-consuming with larger lattice sizes, the training time remains unchanged around the KT transition temperature. The continuous-mixture autoregressive networks we developed thus can be potentially used to study other many-body systems with continuous degrees of freedom.},
+  keywords    = {topology, dgm, xy, n-spin, ml},
+}
+
+@Article{Prokofev1998,
+  author       = {Prokof'ev, N. and Tupitsyn, I. S. and Svistunov, B. V.},
+  date         = {1998-08},
+  journaltitle = {J. Exp. Theor. Phys.},
+  title        = {Exact, complete, and universal continuous-time worldline {Monte Carlo} approach to the statistics of discrete quantum systems},
+  number       = {2},
+  volume       = {87},
+  keywords     = {mcmc},
+}
+
+@Article{Evertz1993,
+  author       = {Evertz, H. G. and Lana, G. and Marcu, M.},
+  date         = {1993-02-15},
+  journaltitle = {Phys. Rev. Lett.},
+  title        = {Cluster algorithm for vertex models},
+  issue        = {7},
+  pages        = {875-879},
+  volume       = {70},
+  keywords     = {collective, mcmc},
+}
+
+@Misc{Wang2017,
+  author      = {Wang, L.},
+  date        = {2017-02-28},
+  title       = {Can Boltzmann Machines Discover Cluster Updates?},
+  eprint      = {1702.08586},
+  eprintclass = {physics.comp-ph},
+  eprinttype  = {arXiv},
+  abstract    = {Boltzmann machines are physics informed generative models with wide applications in machine learning. They can learn the probability distribution from an input dataset and generate new samples accordingly. Applying them back to physics, the Boltzmann machines are ideal recommender systems to accelerate Monte Carlo simulation of physical systems due to their flexibility and effectiveness. More intriguingly, we show that the generative sampling of the Boltzmann Machines can even discover unknown cluster Monte Carlo algorithms. The creative power comes from the latent representation of the Boltzmann machines, which learn to mediate complex interactions and identify clusters of the physical system. We demonstrate these findings with concrete examples of the classical Ising model with and without four spin plaquette interactions. Our results endorse a fresh research paradigm where intelligent machines are designed to create or inspire human discovery of innovative algorithms.},
+  keywords    = {rbm, ising, dgm, collective, mcmc, ml},
+}
+
+@Article{Huang2017,
+  author       = {Huang, L. and Wang, L.},
+  date         = {2017-01-04},
+  journaltitle = {Phys. Rev. B},
+  title        = {Accelerated {Monte Carlo} simulations with restricted {Boltzmann} machines},
+  issue        = {3},
+  pages        = {035105},
+  volume       = {95},
+  abstract     = {Despite their exceptional flexibility and popularity, the Monte Carlo methods often suffer from slow mixing times for challenging statistical physics problems. We present a general strategy to overcome this difficulty by adopting ideas and techniques from the machine learning community. We fit the unnormalized probability of the physical model to a feedforward neural network and reinterpret the architecture as a restricted Boltzmann machine. Then, exploiting its feature detection ability, we utilize the restricted Boltzmann machine for efficient Monte Carlo updates and to speed up the simulation of the original physical system. We implement these ideas for the Falicov-Kimball model and demonstrate improved acceptance ratio and autocorrelation time near the phase transition point.},
+  keywords     = {rbm, mcmc, dgm, ml},
+}
+
+@Article{Wang2016,
+  author       = {Wang, L.},
+  date         = {2016-11-02},
+  journaltitle = {Phys. Rev. B},
+  title        = {Discovering phase transitions with unsupervised learning},
+  issue        = {19},
+  pages        = {195105},
+  volume       = {94},
+  abstract     = {Unsupervised learning is a discipline of machine learning which aims at discovering patterns in large data sets or classifying the data into several categories without being trained explicitly. We show that unsupervised learning techniques can be readily used to identify phases and phases transitions of many-body systems. Starting with raw spin configurations of a prototypical Ising model, we use principal component analysis to extract relevant low-dimensional representations of the original data and use clustering analysis to identify distinct phases in the feature space. This approach successfully finds physical concepts such as the order parameter and structure factor to be indicators of a phase transition. We discuss the future prospects of discovering more complex phases and phase transitions using unsupervised learning techniques.},
+  keywords     = {ising, ml},
+}
+
+@Article{Liu2017a,
+  author       = {Liu, J. and Qi, Y. and Meng, Z. Y. and Fu, L.},
+  date         = {2017-01-04},
+  journaltitle = {Phys. Rev. B},
+  title        = {Self-learning {Monte Carlo} method},
+  eprint       = {1610.03137},
+  eprintclass  = {cond-mat.str-el},
+  eprinttype   = {arXiv},
+  issue        = {4},
+  pages        = {041101},
+  volume       = {95},
+  abstract     = {Monte Carlo simulation is an unbiased numerical tool for studying classical and quantum many-body systems. One of its bottlenecks is the lack of general and efficient update algorithm for large size systems close to phase transition or with strong frustrations, for which local updates perform badly. In this work, we propose a new general-purpose Monte Carlo method, dubbed self-learning Monte Carlo (SLMC), in which an efficient update algorithm is first learned from the training data generated in trial simulations and then used to speed up the actual simulation. We demonstrate the efficiency of SLMC in a spin model at the phase transition point, achieving a 10-20 times speedup.},
+  keywords     = {ml, mcmc, n-spin},
+}
+
+@Article{Cossu2019,
+  author       = {Cossu, G. and Del Debbio, L. and Giani, T. and Khamseh, A. and Wilson, M.},
+  date         = {2019-08-07},
+  journaltitle = {Phys. Rev. B},
+  title        = {Machine learning determination of dynamical parameters: The {Ising} model case},
+  eprint       = {1810.11503},
+  eprintclass  = {physics.comp-ph},
+  eprinttype   = {arXiv},
+  pages        = {064304},
+  volume       = {100},
+  keywords     = {lattice, rbm, ising, ml, dgm},
+}
+
+@Article{Bengio2009,
+  author       = {Bengio, Y.},
+  date         = {2009},
+  journaltitle = {Foundations and Trends in Machine Learning},
+  title        = {Learning Deep Architectures for {AI}},
+  number       = {1},
+  pages        = {1-127},
+  volume       = {2},
+  keywords     = {review, ml},
+}
+
+@Article{Tabak2010,
+  author       = {Tabak, E. G. and Vanden-Eijnden, E.},
+  date         = {2010-03},
+  journaltitle = {Communications in Mathematical Sciences},
+  title        = {Density estimation by dual ascent of the log-likelihood},
+  number       = {1},
+  volume       = {8},
+  keywords     = {flows, new-model, dgm},
+}
+
+@Article{Tabak2012,
+  author       = {Tabak, E. G. and Turner, C. V.},
+  date         = {2012-11-28},
+  journaltitle = {Commun. Pure Appl. Math.},
+  title        = {A Family of Nonparametric Density Estimation Algorithms},
+  pages        = {145-164},
+  volume       = {66},
+  keywords     = {flows, new-model, dgm},
+}
+
+@Misc{Rezende2014,
+  author      = {Rezende, D. J. and Mohamed, S. and Wierstra, D.},
+  date        = {2014-01-16},
+  title       = {Stochastic Backpropagation and Approximate Inference in Deep Generative Models},
+  eprint      = {1401.4082},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  keywords    = {dgm, optim},
+}
+
+@Article{Gregory1983,
+  author       = {Gregory, J. A. and Delbourgo, R.},
+  date         = {1983-04-01},
+  journaltitle = {IMA Journal of Numerical Analysis},
+  title        = {C2 Rational Quadratic Spline Interpolation to Monotonic Data},
+  issue        = {2},
+  pages        = {141-152},
+  volume       = {3},
+  keywords     = {maths, spline},
+}
+
+@Article{Noe2019,
+  author       = {No\'{e}, F. and K\"{o}hler, J. and Olsson, S. and Wu, H.},
+  date         = {2019-09},
+  journaltitle = {Science},
+  title        = {Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning},
+  pages        = {1147},
+  volume       = {365},
+  keywords     = {flows, dgm, ml, mcmc},
+}
+
+@Article{Efthymiou2019,
+  author       = {Efthymiou, S. and Beach, M. J. S. and Melko, R. G.},
+  date         = {2019-02-06},
+  journaltitle = {Phys. Rev. B},
+  title        = {Super-resolving the {Ising} model with convolutional neural networks},
+  eprint       = {1810.02372},
+  eprintclass  = {cond-mat.stat-mech},
+  eprinttype   = {arXiv},
+  issue        = {7},
+  pages        = {075113},
+  volume       = {99},
+  abstract     = {Machine learning is becoming widely used in condensed matter physics. Inspired by the concept of image super-resolution, we propose a method to increase the size of lattice spin configurations using deep convolutional neural networks. Through supervised learning on Monte Carlo (MC) generated spin configurations, we train networks that invert real-space renormalization decimations. We demonstrate that super-resolution can reproduce thermodynamic observables that agree with MC calculations for the one- and two-dimensional Ising model at various temperatures. We find that it is possible to predict thermodynamic quantities for lattice sizes larger than those used in training by extrapolating the parameters of the network. We use this method to compute the critical exponents of the 2D Ising model, finding good agreement with theory.},
+  keywords     = {renorm, ising, dgm, ml},
+}
+
+@Misc{Li2018,
+  author      = {Li, S. H. and Wang, L.},
+  date        = {2018-02-08},
+  title       = {Neural Network Renormalization Group},
+  eprint      = {1802.02840},
+  eprintclass = {cond-mat.stat-mech},
+  eprinttype  = {arXiv},
+  abstract    = {We present a variational renormalization group (RG) approach using a deep generative model based on normalizing flows. The model performs hierarchical change-of-variables transformations from the physical space to a latent space with reduced mutual information. Conversely, the neural net directly maps independent Gaussian noises to physical configurations following the inverse RG flow. The model has an exact and tractable likelihood, which allows unbiased training and direct access to the renormalized energy function of the latent variables. To train the model, we employ probability density distillation for the bare energy function of the physical problem, in which the training loss provides a variational upper bound of the physical free energy. We demonstrate practical usage of the approach by identifying mutually independent collective variables of the Ising model and performing accelerated hybrid Monte Carlo sampling in the latent space. Lastly, we comment on the connection of the present approach to the wavelet formulation of RG and the modern pursuit of information preserving RG.},
+  keywords    = {renorm, ml, dgm, ising},
+}
+
+@Article{KochJanusz2018,
+  author       = {Koch-Janusz, M. and Ringel, Z.},
+  date         = {2018-03-26},
+  journaltitle = {Nature},
+  title        = {Mutual information, neural networks and the renormalization group},
+  eprint       = {1704.06279},
+  eprintclass  = {cond-mat.dis-nn},
+  eprinttype   = {arXiv},
+  pages        = {578-582},
+  volume       = {14},
+  abstract     = {Physical systems differring in their microscopic details often display strikingly similar behaviour when probed at macroscopic scales. Those universal properties, largely determining their physical characteristics, are revealed by the powerful renormalization group (RG) procedure, which systematically retains "slow" degrees of freedom and integrates out the rest. However, the important degrees of freedom may be difficult to identify. Here we demonstrate a machine learning algorithm capable of identifying the relevant degrees of freedom and executing RG steps iteratively without any prior knowledge about the system. We introduce an artificial neural network based on a model-independent, information-theoretic characterization of a real-space RG procedure, performing this task. We apply the algorithm to classical statistical physics problems in one and two dimensions. We demonstrate RG flow and extract the Ising critical exponent. Our results demonstrate that machine learning techniques can extract abstract physical concepts and consequently become an integral part of theory- and model-building.},
+  keywords     = {renorm, ml, dgm, information, ising},
+}
+
+@Misc{Lenggenhager2018,
+  author      = {Lenggenhager, P. M. and G\"{o}kmen, D. E. and Ringel, Z. and Huber, S. D. and Koch-Janusz, M.},
+  date        = {2018-09-25},
+  title       = {Optimal Renormalization Group Transformation from Information Theory},
+  eprint      = {1809.09632},
+  eprintclass = {cond-mat.stat-mech},
+  eprinttype  = {arXiv},
+  abstract    = {Recently, a novel real-space renormalization group (RG) algorithm was introduced. By maximizing an information-theoretic quantity, the real-space mutual information, the algorithm identifies the relevant low-energy degrees of freedom. Motivated by this insight, we investigate the information-theoretic properties of coarse-graining procedures for both translationally invariant and disordered systems. We prove that a perfect real-space mutual information coarse graining does not increase the range of interactions in the renormalized Hamiltonian, and, for disordered systems, it suppresses the generation of correlations in the renormalized disorder distribution, being in this sense optimal. We empirically verify decay of those measures of complexity as a function of information retained by the RG, on the examples of arbitrary coarse grainings of the clean and random Ising chain. The results establish a direct and quantifiable connection between properties of RG viewed as a compression scheme and those of physical objects, i.e., Hamiltonians and disorder distributions. We also study the effect of constraints on the number and type of coarse-grained degrees of freedom on a generic RG procedure.},
+  keywords    = {renorm, information, dgm, ml, ising},
+}
+
+@Article{Iso2018,
+  author       = {Iso, S. and Shiba, S. and Yokoo, S.},
+  date         = {2018-05},
+  journaltitle = {Physical Review E},
+  title        = {Scale-invariant feature extraction of neural network and renormalization group flow},
+  eprint       = {1801.07172},
+  eprintclass  = {hep-th},
+  eprinttype   = {arXiv},
+  issue        = {5},
+  pages        = {053304},
+  volume       = {97},
+  abstract     = {Theoretical understanding of how deep neural network (DNN) extracts features from input images is still unclear, but it is widely believed that the extraction is performed hierarchically through a process of coarse-graining. It reminds us of the basic concept of renormalization group (RG) in statistical physics. In order to explore possible relations between DNN and RG, we use the Restricted Boltzmann machine (RBM) applied to Ising model and construct a flow of model parameters (in particular, temperature) generated by the RBM. We show that the unsupervised RBM trained by spin configurations at various temperatures from T=0 to T=6 generates a flow along which the temperature approaches the critical value Tc=2.27. This behavior is opposite to the typical RG flow of the Ising model. By analyzing various properties of the weight matrices of the trained RBM, we discuss why it flows towards Tc and how the RBM learns to extract features of spin configurations.},
+  keywords     = {renorm, dgm, ml, rbm, ising},
+}
+
+@Article{Mehta2019,
+  author       = {Mehta, P. and Bukov, M. and Wang, C-H. and Day, A. G. R. and Richardson, C. and Fisher, C. K. and Schwab, D. J.},
+  date         = {2019-05-30},
+  journaltitle = {Phys. Rep.},
+  title        = {A high-bias, low-variance introduction to Machine Learning for physicists},
+  eprint       = {1803.08823},
+  eprintclass  = {physics.comp-ph},
+  eprinttype   = {arXiv},
+  pages        = {1-124},
+  volume       = {810},
+  keywords     = {pedag, ml},
+}
+
+@Article{DasSarma2019,
+  author       = {Das Sarma, S. and Deng, D-L. and Duan, L-M.},
+  date         = {2019-03},
+  journaltitle = {Phys. Today},
+  title        = {Machine learning meets quantum physics},
+  eprint       = {1903.03516},
+  eprintclass  = {physics.pop-ph},
+  eprinttype   = {arXiv},
+  issue        = {3},
+  volume       = {72},
+  keywords     = {review, ml},
+}
+
+@Misc{Urban2018,
+  author      = {Urban, J. M. and Pawlowski, J. M.},
+  date        = {2018-11-08},
+  title       = {Reducing Autocorrelation Times in Lattice Simulations with Generative Adversarial Networks},
+  eprint      = {1811.03533},
+  eprintclass = {hep.lat},
+  eprinttype  = {arXiv},
+  abstract    = {Short autocorrelation times are essential for a reliable error assessment in Monte Carlo simulations of lattice systems. In many interesting scenarios, the decay of autocorrelations in the Markov chain is prohibitively slow. Generative samplers can provide statistically independent field configurations, thereby potentially ameliorating these issues. In this work, the applicability of neural samplers to this problem is investigated. Specifically, we work with a generative adversarial network (GAN). We propose to address difficulties regarding its statistical exactness through the implementation of an overrelaxation step, by searching the latent space of the trained generator network. This procedure can be incorporated into a standard Monte Carlo algorithm, which then permits a sensible assessment of ergodicity and balance based on consistency checks. Numerical results for real, scalar $\phi^4$-theory in two dimensions are presented. We achieve a significant reduction of autocorrelations while accurately reproducing the correct statistics. We discuss possible improvements to the approach as well as potential solutions to persisting issues.},
+  keywords    = {lattice, gan, ml, dgm, phi4},
+}
+
+@Misc{Tanaka2017,
+  author      = {Tanaka, A. and Tomiya, A.},
+  date        = {2017-12-11},
+  title       = {Towards reduction of autocorrelation in {HMC} by machine learning},
+  eprint      = {1712.03893},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  abstract    = {In this paper we propose new algorithm to reduce autocorrelation in Markov chain Monte-Carlo algorithms for euclidean field theories on the lattice. Our proposing algorithm is the Hybrid Monte-Carlo algorithm (HMC) with restricted Boltzmann machine. We examine the validity of the algorithm by employing the phi-fourth theory in three dimension. We observe reduction of the autocorrelation both in symmetric and broken phase as well. Our proposing algorithm provides consistent central values of expectation values of the action density and one-point Green's function with ones from the original HMC in both the symmetric phase and broken phase within the statistical error. On the other hand, two-point Green's functions have slight difference between one calculated by the HMC and one by our proposing algorithm in the symmetric phase. Furthermore, near the criticality, the distribution of the one-point Green's function differs from the one from HMC. We discuss the origin of discrepancies and its improvement.},
+  keywords    = {lattice, hmc, rbm, ml, dgm, phi4, mcmc},
+}
+
+@Misc{Li2020,
+  author      = {Li, S. and Zhao, Y. and Varma, R. and Salpekar, O. and Noordhuis, P. and Li, T. and Paszke, A. and Smith, J. and Vaughan, B. and Damania, P. and Chintala, S.},
+  date        = {2020-06-28},
+  title       = {{PyTorch Distributed}: Experiences on Accelerating Data Parallel Training},
+  eprint      = {2006.15704},
+  eprintclass = {cs.DC},
+  eprinttype  = {arXiv},
+  keywords    = {pytorch, computing, python},
+}
+
+@InBook{Sokal1997,
+  author    = {Sokal, A. D.},
+  booktitle = {Functional Integration},
+  date      = {1997},
+  title     = {{Monte Carlo} Methods in Statistical Mechanics: Foundations and New Algorithms},
+  pages     = {131-192},
+  keywords  = {mcmc, pedag, errors},
+}
+
+@Article{Wiener1923,
+  author       = {Wiener, N.},
+  date         = {1923},
+  journaltitle = {J. Math. \& Phys.},
+  title        = {Differential space},
+  pages        = {132-174},
+  volume       = {2},
+  keywords     = {historical, maths},
+}
+
+@Article{Kullbach1951,
+  author       = {Kullbach, S. and Leibler, R. A.},
+  date         = {1951},
+  journaltitle = {Ann. Math. Statist.},
+  title        = {On Information and Sufficiency},
+  number       = {1},
+  pages        = {79-86},
+  volume       = {22},
+  keywords     = {historical, information, stats},
+}
+
+@Misc{Wolff2003,
+  author      = {Wolff, U.},
+  date        = {2003-06-13},
+  title       = {{Monte Carlo} errors with less errors},
+  eprint      = {0306017},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  keywords    = {mcmc, pedag, errors},
+}
+
+@Article{DAdda1978,
+  author       = {D'Adda, A. and L\"{u}scher, M. and Di Vecchia, P.},
+  date         = {1978-08-28},
+  journaltitle = {Nucl. Phys. B},
+  title        = {A 1/n Expandable Series of Non-Linear Sigma Models With Instantons},
+  pages        = {63-76},
+  volume       = {146},
+  keywords     = {cpn, qft},
+}
+
+@Article{Novikov1984,
+  author       = {Novikov, V. A. and Shifman, M. A. and Vainshtein, A. I. and Zakharov, V. I.},
+  date         = {1984-05-14},
+  journaltitle = {Phys. Rep.},
+  title        = {Two-dimensional Sigma Models: Modelling Non-Perturbative Effects in {Quantum Chromodynamics}},
+  number       = {3},
+  pages        = {103-171},
+  volume       = {116},
+  keywords     = {cpn, review},
+}
+
+@Article{Luscher2001,
+  author       = {L\"{u}scher, M.},
+  date         = {2001-08},
+  journaltitle = {J. High Energy Phys.},
+  title        = {Locality and exponential error reduction in numerical lattice gauge theory},
+  eprint       = {0108014},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  volume       = {109},
+  keywords     = {lattice, multigrid, mcmc},
+}
+
+@Article{Meyer2002,
+  author       = {Meyer, H. B.},
+  date         = {2003},
+  journaltitle = {J. High Energy Phys.},
+  title        = {Locality and Statistical Error Reduction on Correlation Functions},
+  eprint       = {0209145},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  keywords     = {lattice, multigrid, mcmc},
+}
+
+@Misc{Tan2020,
+  author      = {Tan, D-R. and Jiang, F-J.},
+  date        = {2020-07-29},
+  title       = {Machine learning phases and criticalities without using real data for training},
+  eprint      = {2007.14809},
+  eprintclass = {cond-mat.dis-nn},
+  eprinttype  = {arXiv},
+  abstract    = {We study the phase transitions of three-dimensional (3D) classical O(3) model and the two-dimensional (2D) classical XY model, as well as both the quantum phase transitions of 2D and 3D dimerized spin-1/2 antiferromagnets, using the techniques of supervised neural network (NN). Moreover, unlike the conventional approaches commonly used in the literature, the training sets employed in our investigation are neither the theoretical nor the real configurations of the considered systems. Remarkably, with such an unconventional set up of the training stage in conjunction with semi-experimental finite-size scaling formulas, the associated critical points determined by the NN method agree well with the established results in the literature. The outcomes obtained here imply that certain unconventional training strategies, like the one used in this study, are not only cost-effective in computation, but are also applicable for a wild range of physical systems.},
+  keywords    = {ml, dgm, n-spin, xy, lattice},
+}
+
+@Misc{Zeiler2012,
+  author      = {Zeiler, M. D.},
+  date        = {2012-12-22},
+  title       = {{ADADELTA}: An Adaptive Learning Rate Method},
+  eprint      = {1212.5701},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  keywords    = {optim, ml},
+}
+
+@Misc{Ho2019,
+  author      = {Ho, J. and Chen, X. and Srinivas, A. and Duan, Y. and Abbeel, P.},
+  date        = {2019-02-01},
+  title       = {Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design},
+  eprint      = {1902.00275},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Song2019,
+  author      = {Song, Y. and Meng, C. and Ermon, S.},
+  date        = {2019-07-18},
+  title       = {{MintNet}: Building Invertible Neural Networks with Masked Convolutions},
+  eprint      = {1907.07945},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXIv},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Article{Endres2015,
+  author       = {Endres, M. G. and Brower, R. C. and Detmold, W. and Orginos, K. and Pochinsky, A. V.},
+  date         = {2015-12-29},
+  journaltitle = {Phys. Rev. D},
+  title        = {Multiscale {Monte Carlo} equilibration: Pure {Yang-Mills} theory},
+  eprint       = {1510.04675},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  pages        = {114516},
+  volume       = {92},
+  keywords     = {lattice, multigrid, mcmc},
+}
+
+@Article{Efron1986,
+  author       = {Efron, B and Tibshirani, R.},
+  date         = {1986},
+  journaltitle = {Statistical Science},
+  title        = {Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy},
+  number       = {1},
+  pages        = {54-77},
+  volume       = {1},
+  keywords     = {bootstrap, errors, stats},
+}
+
+@Article{Pelissetto2002,
+  author       = {Pelissetto, A. and Vicari, E.},
+  date         = {2002-05-01},
+  journaltitle = {Phys. Rep.},
+  title        = {Critical phenomena and renormalization-group theory},
+  pages        = {549-727},
+  volume       = {368},
+  keywords     = {pedag, renorm, qft},
+}
+
+@Misc{Boyle2015,
+  author      = {Boyle, P. A. and Yamaguchi, A. and Portelli, A. and Cossu, G.},
+  date        = {2015-12-10},
+  title       = {Grid: A next generation data parallel C++ {QCD} library},
+  eprint      = {1512.03487},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  keywords    = {lattice, hpc, computing},
+}
+
+@Misc{Kennedy2006,
+  author      = {Kennedy, A. D.},
+  date        = {2006-07-31},
+  title       = {Algorithms for Dynamical Fermions},
+  eprint      = {0607038},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  keywords    = {lattice, pedag, mcmc, fermions},
+}
+
+@Article{Wilson1973,
+  author       = {Wilson, K. G. and Kogut, J.},
+  date         = {1973-07-02},
+  journaltitle = {Phys. Rep.},
+  title        = {The Renormalization Group and the {$\epsilon$} Expansion},
+  number       = {2},
+  pages        = {75-200},
+  volume       = {12},
+  abstract     = {The modern formulation of the renormalization group is explained for both critical phenomena in classical statistical mechanics and quantum field theory. The expansion in e = 4 — d is explained [d is the dimension of space (statistical mechanics) or space- time (quantum field theory)1. The emphasis is on principles, not particular applications. Sections 1—8 provide a self.contained introduction at a fairly elementary level to the statistical mechanical theory. No background is requised except for someprior experience with diagrams. In particular, a diagrammatic approximation to an exact renormalization group equation is presented in sections 4 and 5; sections 6—8 include the approximate r~normalizationgroup recursion formula and the Feynman graph method for calculating exponents. Sections 10—13 go deeper into renormalization group theory (section 9 presents a calculation of anomalous dimensions). The equivalence of quantum field theory and classical statistical mechanics near the critical point is established in section 10; Sections 11—13 concern problems common to both subjects. Specific field theoretic referencesassume some background in quantum field theory. An exact renormalization group equation is presented in section 11; sections 12 and 13 concertn fundamental topological questions.},
+  keywords     = {historical, renorm, qft},
+}
+
+@Article{tHooft1986,
+  author       = {'t Hooft, G.},
+  date         = {1986-04-18},
+  journaltitle = {Phys. Rep.},
+  title        = {How Instantons Solve the {U(1)} Problem},
+  number       = {6},
+  pages        = {357-387},
+  volume       = {142},
+  abstract     = {The gauge theory for strong interactions, QCD, has an apparent U(1) symmetry that isnot realized in the real world. The violation of the U(1) symmetry can be attributed to a well-known anomaly in the regularization of the theory, which in field configurations called “instantons” can be seen to give rise to interactions that explicitly break the symmetry. A simple polynomial effective Lagrangian describes these effects qualitatively very well. In particular it is seen that no unwanted Goldstone bosons appear and the eta particle owes a large fraction of its mass to instantons. There is no need for field configurations with fractional winding numbers and it is explained how a spurious U( 1) symmetry that remains in QCD even after introducing instantons, does not affect these results.},
+  keywords     = {qft, u1, topology, qcd},
+}
+
+@Article{Christos1984,
+  author       = {Christos, G. A.},
+  date         = {1984-07-01},
+  journaltitle = {Phys. Rep.},
+  title        = {Chiral Symmetry and the {U(1)} Problem},
+  number       = {5},
+  pages        = {251-336},
+  volume       = {116},
+  abstract     = {This review gives a detailed account of recent progress in the U(1) problem from the point of view of the anomalous Ward identities and the large Nc expansion. Two important ingredients that go into the formulation of the U(1) problem, chiral symmetry and the QCD anomaly, are extensively discussed. The basic concepts and techniques of chiral symmetry and chiral perturbation theory, as realized in the Gell-Mann-Oakes-Renner scheme, are reviewed. The physical meaning of the anomaly is clarified and its effects are consistently implemented through the anomalous Ward identities. These equations are extensively analysed in the chiral and/or large Nc limits. The θ periodicity puzzle, its solution and t he required spectrum of topological charge are discussed in the framework of chiral perturbation theory. Other aspects of the U(1) problem, such as: the means by which the η′ obtains its large mass, the details of the required (modified) Kogut-Susskind mechanism, phenomenological applications (such as η−η′ mixing and η → 3π decays), effective chiral Lagrangians incorporating effects of the anomaly and proofs of spontaneous chiral symme try breaking are considered from the viewpoint of the large Nc and topological expansions.},
+  keywords     = {review, qcd, u1, topology},
+}
+
+@Article{Kennedy2000,
+  author       = {Kennedy, A. D.},
+  date         = {2000-06},
+  journaltitle = {Chin. J. Phys.},
+  title        = {{Monte Carlo} Methods for Quantum Field Theory},
+  number       = {3-II},
+  pages        = {707-720},
+  volume       = {38},
+  abstract     = {We present a review of some possibly interesting algorithmic techniques for the non- expert. We shall briefly survey a method for making Markov Chain Monte Carlo (MCMC) exact, the instabilities in symplectic integrators, exact noisy algorithms, Chebyshev (minimax) polynomial and rational approximations, and their relevance to dynamical GW fermions.},
+  keywords     = {lattice, review, pedag, mcmc},
+}
+
+@Article{Miyatake1986,
+  author       = {Miyatake, Y. and Yamamoto, M. and Kim, J. J. and Toyonaga, M. and Nagai, O.},
+  date         = {1986-10-28},
+  journaltitle = {J. Phys. C: Solid State Phys},
+  title        = {On the implementation of the 'heat bath' algorithms for {Monte Carlo} simulations of classical {Heisenberg} spin systems},
+  pages        = {2539-2546},
+  volume       = {19},
+  abstract     = {The  Monte Carlo simulations based on the ‘heat  bath’ algorithms are implemented  for the following classical spin systems: (i) the continuous-spin Ising model; (ii) the XY  model; and (iii) the Heisenberg model.},
+  keywords     = {lattice, mcmc, local, heisenberg, n-spin},
+}
+
+@Article{Bosetti2015,
+  author       = {Bosetti, P. and De Palma, B. and Guagnelli, M.},
+  date         = {2015-08},
+  journaltitle = {Phys. Rev. D},
+  title        = {{Monte Carlo} determination of the critical coupling in {$\phi^4_2$} theory},
+  number       = {3},
+  pages        = {034509},
+  volume       = {92},
+  abstract     = {We use lattice formulation of ϕ4 theory in order to investigate nonperturbative features of its continuum limit in two dimensions. In particular, by means of Monte Carlo calculations, we obtain the critical coupling constant g/μ2 in the continuum, where g is the unrenormalized coupling. Our final result is g/μ2=11.15±0.06stat±0.03syst.},
+  keywords     = {phi4, lattice},
+}
+
+@Misc{Wolff1992,
+  author      = {Wolff, U.},
+  date        = {1992-09-02},
+  title       = {High Precision Simulation Techniques for Lattice Field Theory},
+  eprint      = {9209005},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  abstract    = {An overview is given over the recently developed and now widely used Monte Carlo algorithms with reduced or eliminated critical slowing down. The basic techniques are overrelaxation, cluster algorithms and multigrid methods. With these tools one is able to probe much closer than before the universal continuum behaviour of field theories on the lattice.},
+  comment     = {Based on a talk given at PC92},
+  keywords    = {review, mcmc, lattice},
+}
+
+@Article{Polyakov1975,
+  author       = {Polyakov, A. M.},
+  date         = {1975-10-13},
+  journaltitle = {Phys. Lett. B},
+  title        = {Interaction of {Goldstone} Particles in Two Dimensions. Applications to Ferromagnets and Massive {Yang-Mills} Fields},
+  number       = {1},
+  pages        = {79-81},
+  volume       = {59},
+  abstract     = {Interaction of Goldstone particles in two dimensions lead to the infrared catastrophe. In order to analyze it we apply to the problem the method of the renormalization group. It is shown that due to interaction the regime of the “asymptotic freedom” arises. The continuation to higher dimensions and the applications of the result are briefly discussed.},
+  keywords     = {historical, qft},
+}
+
+@Article{GellMann1960,
+  author       = {Gell-Mann, M. and L\'{e}vy, M.},
+  date         = {1960-05-16},
+  journaltitle = {Il Nuovo Cimento},
+  title        = {The axial vector current in beta decay},
+  pages        = {705-726},
+  volume       = {16},
+  abstract     = {In order to derive in a convincing manner the formula of Goldberger and Treiman for the rate of charged pion decay, we consider the possibility that the divergence of the axial vector current in β-decay may be proportional to the pion field. Three models of the pion-nucleon interaction (and the weak current) are presented that have the required property. The first, using gradient coupling, has the advantage that it is easily generalized to strange particles, but the disadvantages of being unrenormalizable and of bringing in the vector and axial vector currents in an unsymmetrical way. The second model, using a strong interaction proposed by SCHWINGER and a weak current proposed by POLKINGHORNE, is renormalizable and symmetrical between V and A, but it involves postulating a new particle and is hard to extend to strange particles. The third model resembles the second one except that it is not necessary to introduce a new particle. (Renormalizability in the usual sense is then lost, however). Further research along these lines is suggested, including consideration of the possibility that the pion decay rate may be plausibly obtained under less stringent conditions.},
+  keywords     = {historical, qft},
+}
+
+@Article{Witten1979,
+  author       = {Witten, E.},
+  date         = {1979-04-17},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Current Algebra Theorems For The {U(1)} "Goldstone Boson"},
+  pages        = {269-283},
+  volume       = {156},
+  abstract     = {The U(1) problem is reconsidered from the point of view of the {1}/{N} expansion. It is argued that various heuristic ideas about the η' are valid from this point of view. Current algebra theorems, similar to soft π theorems, are derived for the η'. They are valid to lowest order in {1}/{N}.},
+  keywords     = {historical, qft, u1},
+}
+
+@Article{DiVecchia1982,
+  author       = {Di Vecchia, P. and Fabricius, K. and Rossie, G. C. and Veneziano, G.},
+  date         = {1982-01-28},
+  journaltitle = {Phys. Lett. B},
+  title        = {Numerical Checks of the Lattice Definition Independence of Topological Charge Fluctuations},
+  number       = {4,5},
+  pages        = {323-326},
+  volume       = {108},
+  abstract     = {The stability of our previous results on the topological charge fluctuation in SU(2) is checked against some variations of its lattice definition. The method consists of subtracting a partly computed perturbative tail to Monte Carlo data, whose high statistics are achieved by use of the icosahedral subgroup of SU(2).},
+  keywords     = {topology, lattice, su2},
+}
+
+@Article{Luscher1982a,
+  author       = {L\"{u}scher, M.},
+  date         = {1982-01-14},
+  journaltitle = {Nucl. Phys. B},
+  title        = {A semiclassical formula for the topological susceptibility in a finite space-time volume},
+  pages        = {483-503},
+  volume       = {205},
+  abstract     = {The volume dependence of the topological susceptibility χtV = 〈Q2〈V (Q: topological charge, V: space-time volume in four-dimensional non-abelian gauge theories is studied. For small volumes, χtV is shown to be dominated by the one-instanton contribution and is therefore analytically calculable. It turns out that χtV increases monotonically with V. If this property continues to hold beyond the small volume range, a lower bound on χt = limV→∞χtV can be obtained. For an SU(3) gauge group it reads χt⩾5ΛMS4.},
+  keywords     = {topology, lattice},
+}
+
+@Article{Caracciolo1998,
+  author       = {Caracciolo, S. and Pelissetto, A.},
+  date         = {1998-10-08},
+  journaltitle = {Phys. Rev. D},
+  title        = {Corrections to Finite-Size Scaling in the Lattice {$N$}-Vector Model for {$N=\infty$}},
+  pages        = {105007},
+  volume       = {58},
+  abstract     = {We compute the corrections to finite-size scaling for the N-vector model on the square lattice in the large-N limit. We find that corrections behave as log L/L2 . For tree-level improved Hamiltonians corrections behave as 1/L2. In general l-loop improvement is expected to reduce this behavior to 1/(L2logl L). We show that the finite-size scaling limit and the perturbative limit do not commute in the calculation of the corrections to finite-size scaling. We present a detailed study of the corrections for the RP` model.},
+  comment      = {Lattice definitions of correlation lengths},
+  keywords     = {n-vector, fss, lattice, nl-sigma},
+}
+
+@Article{Caracciolo1997,
+  author       = {Caracciolo, S. and Pelissetto, A.},
+  date         = {1997-02},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Corrections to finite-size scaling in two-dimensional {O(N) $\sigma$-models}},
+  issue        = {1-3},
+  pages        = {693-695},
+  volume       = {53},
+  abstract     = {We have considered the corrections to the finite-size-scaling functions for a general class of O(N) σ-models with two-spin interactions in two dimensions for N = ∞. We have computed the leading corrections finding that they generically behave as (f(z) log L + g(z))/L2 where z = m(L)L and m(L) is a mass scale; f(z) vanishes for Symanzik improved actions for which the inverse propagator behaves as q2 + O(q6), for small q, but not for on-shell improved ones. We also discuss a model with four-spin interactions which shows a much more complicated behaviour.},
+  keywords     = {n-vector, fss, lattice, nl-sigma},
+}
+
+@Article{Peardon2009,
+  author       = {Peardon, M. and Bulava, J. and Foley, J. and Morningstar, C. and Dudek, J. and Edwards, R. G. and Jo\'{o}, B. and Lin, H-W. and Richards, D. G. and Juge, K. J.},
+  date         = {2009-05},
+  journaltitle = {Phys. Rev. D},
+  title        = {Novel quark-field creation operator construction for hadronic physics in lattice {QCD}},
+  pages        = {054506},
+  volume       = {80},
+  abstract     = {A new quark-field smearing algorithm is defined which enables efficient calculations of a broad range of hadron correlation functions. The technique applies a low-rank operator to define smooth fields that are to be used in hadron creation operators. The resulting space of smooth fields is small enough that all elements of the reduced quark propagator can be computed exactly at reasonable computational cost. Correlations between arbitrary sources, including multi hadron operators can be computed a posteriori without requiring new lattice Dirac operator inversions. The method is tested on realistic lattice sizes with light dynamical quarks.},
+  keywords     = {lattice, distillation, quarks},
+}
+
+@Article{Efron1979,
+  author       = {Efron, B.},
+  date         = {1979},
+  journaltitle = {Ann. Statist.},
+  title        = {Bootstrap methods: another look at the jackknife},
+  number       = {1},
+  pages        = {1-26},
+  volume       = {7},
+  abstract     = {We discuss the following problem: given a random sample X=(X1,X2,⋯,Xn) from an unknown probability distribution F, estimate the sampling distribution of some prespecified random variable R(X,F), on the basis of the observed data x. (Standard jackknife theory gives an approximate mean and variance in the case R(X,F)=θ(F^)−θ(F),θ some parameter of interest.) A general method, called the "bootstrap," is introduced, and shown to work satisfactorily on a variety of estimation problems. The jackknife is shown to be a linear approximation method for the bootstrap. The exposition proceeds by a series of examples: variance of the sample median, error rates in a linear discriminant analysis, ratio estimation, estimating regression parameters, etc.},
+  keywords     = {bootstrap, errors, stats},
+}
+
+@Article{Wang2012,
+  author       = {Wang, M. and Shimizu, K.},
+  date         = {2012-11},
+  journaltitle = {Statistical Methodology},
+  title        = {On applying M\"{o}bius transformation to cardoid random variables},
+  issue        = {6},
+  pages        = {604-614},
+  volume       = {9},
+  abstract     = {Möbius transformation from the unit circle onto itself is applied to a cardioid random variable. The distribution function, cosine and sine moments, conditions for modality and symmetry of the resulting distribution are studied. The paper proposes a bivariate cardioid distribution with symmetric cardioid marginals. The distribution is generated from a circular-circular structural model or a method of trivariate reduction introduced and controlled by a Möbius transformation link between common parts of the two variables. An illustration is given for wind direction data as an application of the bivariate cardioid distribution.},
+  keywords     = {directional, stats},
+}
+
+@Article{Fernandez1986,
+  author       = {Fern\'{a}ndez, J. F. and Ferreira, M. F. and Stankiewicz, J.},
+  date         = {1986-07-01},
+  journaltitle = {Phys. Rev. B},
+  title        = {Critical behaviour of the two-dimensional {XY} model: a {Monte Carlo} simulation},
+  number       = {1},
+  volume       = {34},
+  abstract     = {We have performed Monte Carlo (MC) simulations on systems of L xL classical planar unit spins
+on square lattices, for L =6, 1S, 30, 60, 90, and 200. The interaction between any two given spins
+Sl and Sz is given by —JSl.Sz if Sl and Sz are nearest neighbors and vanishes otherwise. In order to make sure that our results correspond to equilibrium values, we have looked into the timedependent properties of this model in the vicinity of critical temperature (T,). We have found that
+the diffusion constant for vortex motion is given at T, by 8=0.2 (in units of nearest-neighbor distance squared per MC step per spin). The values of the relaxation times follow from the value of D.
+Our computer running times were typically 10' MC steps per spin, larger than any relaxation time
+for the system sizes we deal with. We use a procedure based on finite-size scaling to establish the
+value of T, =0.89J/k~, the value of v=0. 5+0.1, and the value of g, =0.24+0.03, in agreement
+with the values predicted by the Kosterlitz-Thouless theory.},
+  keywords     = {xy, lattice, nl-sigma},
+}
+
+@Article{Berg1981,
+  author       = {Berg, B. and L\"{u}scher, M.},
+  date         = {1981-02-09},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Definition and statistical distributions of a topological number in the lattice {O(3) $\sigma$-model}},
+  pages        = {412-424},
+  volume       = {190},
+  abstract     = {We define a topological number Q for spin fields on a two-dimensional lattice. Q assumes integer values only and reduces to the well-known winding number in the classical continuum limit. A Monte Carlo measurement of the topological susceptibility χt = 〈Q2〉 / volume on a 100 × 100 lattice reveals that it decreases exponentially with increasing β( = inverse bare coupling constant). The corresponding prediction of the perturbative renormalization group is not matched, however.},
+  keywords     = {topology, heisenberg, lattice, nl-sigma},
+}
+
+@Article{Luscher1982b,
+  author       = {L\"{u}scher, M.},
+  date         = {1982-03-30},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Does the topological susceptibility in lattice {$\sigma$} models scale according to the perturbative renormalization group?},
+  pages        = {61-70},
+  volume       = {200},
+  abstract     = {A recent Monte Carlo measurement of the topological susceptibility χt = 〈Q2〉/volume (Q: topological charge) in the lattice O(3) σ model revealed that χt does not scale like a (mass)2 for large β (= inverse bare coupling constant). This effect is here explained and also argued to be absent in the lattice CPn−1 model for n ⩾ 4.},
+  keywords     = {topology, heisenberg, lattice, nl-sigma},
+}
+
+@Article{DiGiacomo1992a,
+  author       = {Di Giacomo, A. and Farchioni, F. and Papa, A. and Vicari, E.},
+  date         = {1992-02-06},
+  journaltitle = {Phys. Lett. B},
+  title        = {The topological susceptibility of the {2D O(3) $\sigma$ model}},
+  pages        = {148-154},
+  volume       = {276},
+  abstract     = {We study the topological susceptibility, χ, of the 2D O(3) σ model by defining a density of topological charge as a local polynomial of the spin variables on the lattice. Following the field theoretical prescriptions we perform the additive and multiplicative renormalizations needed to extract χ from Monte Carlo data. By numerical simulations we show that the field theoretical definition and the cooling method give a consistent determination of χ.},
+  keywords     = {topology, heisenberg, lattice, nl-sigma},
+}
+
+@Article{DiGiacomo1991,
+  author       = {Di Giacomo, A.},
+  date         = {1991-08},
+  journaltitle = {Nucl. Phys. B (Proc. Suppl.)},
+  title        = {Topology and the {U(1)} problem from lattice},
+  pages        = {191-198},
+  volume       = {23},
+  abstract     = {The status of the determination of the topological susceptibility χ on the lattice is reviewed. The t'Hooft-Witten-Veneziano mechanism for the breaking of axial U(1) symmetry is confirmed. A calculation is presented of , which agrees with phenomenological determinations.},
+  keywords     = {topology, lattice, u1},
+}
+
+@Article{DiGiacomo1992b,
+  author       = {Di Giacomo, A. and Farchioni, F. and Papa, A. and Vicari, E.},
+  date         = {1992-11-15},
+  journaltitle = {Phys. Rev. D},
+  title        = {Topological susceptibility on the lattice: the two-dimensional {O(3) $\sigma$ model}},
+  number       = {10},
+  pages        = {4630-4642},
+  volume       = {46},
+  abstract     = {As a test of the procedures used in lattice gauge theories, we study the topological susceptibility {chi} in a two-dimensional O(3) {sigma} or CP{sup 1} model. We determine {chi} by defining the density of topological charge as a local operator on the lattice. Following the prescriptions of field theory we perform the additive and multiplicative renormalizations needed to extract {chi} from Monte Carlo data. We also determine {chi} by the cooling method, finding consistent results. A combined use of cooling and field theory again gives the same result and insight into the renormalization mechanism. Finally we give a direct determination, by Monte Carlo techniques, of both the multiplicative and additive renormalizations, by heating configurations with a definite number of instantons. The results are consistent with perturbation theory.},
+  keywords     = {topology, heisenberg, nl-sigma, lattice},
+}
+
+@Article{Rastelli1997,
+  author       = {Rastelli, L. and Rossi, P. and Vicari, E.},
+  date         = {1997-03-31},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Topological charge on the lattice: a field theoretical view of the geometrical approach},
+  issue        = {1-2},
+  pages        = {453-466},
+  volume       = {489},
+  abstract     = {We construct sequences of “field theoretical” lattice topological charge density operators which formally approach geometrical definitions in 2D  models and 4D SU(N) Yang-Mills theories. The analysis of these sequences of operators suggests a new way of looking at the geometrical method, showing that geometrical charges can be interpreted as limits of sequences of field theoretical (analytical) operators. In perturbation theory, renormalization effects formally tend to vanish along such sequences. But, since the perturbative expansion is asymptotic, this does not necessarily lead to well-behaved geometrical limits. It indeed leaves open the possibility that non-perturbative renormalizations survive.},
+  keywords     = {topology, cpn, lattice, sun},
+}
+
+@Article{Aguado2005,
+  author       = {Aguado, M. and Seiler, E.},
+  date         = {2005-09-12},
+  journaltitle = {Nucl. Phys. B},
+  title        = {Perturbation theory for {O(3)} topological charge correlators},
+  issue        = {3},
+  pages        = {234-254},
+  volume       = {723},
+  abstract     = {To check the consistency of positivity requirements for the two-point correlation function of the topological charge density, which were identified in a previous paper, we are computing perturbatively this two-point correlation function in the two-dimensional O(3) model. We find that at the one-loop level these requirements are fulfilled.},
+  comment      = {Consider both geometrical and field theoretical definitions},
+  keywords     = {lattice, heisenberg, topology, nl-sigma},
+}
+
+@Article{Martinelli1981,
+  author       = {Martinelli, G. and Parisi, G. and Petronzio, R.},
+  date         = {1981-04-23},
+  journaltitle = {Phys. Lett. B},
+  title        = {{Monte Carlo} simulations for the two-dimensional {O(3)} non-linear sigma model},
+  number       = {6},
+  pages        = {485-488},
+  volume       = {100},
+  abstract     = {We report on the results of Monte Carlo simulations for the two-dimensional O(3) non-linear sigma model. The estimates  based on the combined use of the renormalization group and of the high temperature expansion are found to be in agreement with our "data". We present good experimental evidence for the absence of any phase transition, as expected on theoretical grounds},
+  keywords     = {heisenberg, lattice, nl-sigma},
+}
+
+@Article{Vicari1991,
+  author       = {Vicari, E.},
+  date         = {1991-08-09},
+  journaltitle = {Nucl. Phys. B},
+  title        = {The {Euclidean} two-point correlation function of the topological charge density},
+  issue        = {1-2},
+  pages        = {301-312},
+  volume       = {554},
+  abstract     = {We study the Euclidean two-point correlation function Gq(x) of the topological charge density in QCD. A general statement based on reflection positivity tells us that Gq(x) < 0 for x ≠ 0. On the other hand, the topological susceptibility χq = ∫ ddxGq(x) is a positive quantity. This indicates that Gq(x) develops a positive contact term at x = 0, that contributes to the determination of the physical value of χq. We show explicitly these features of Gq(x) in a solvable non-trivial continuum model, the two-dimensional CPN-1 model in the large-N limit. A similar analysis is done on the lattice.},
+  keywords     = {topology, cpn, qcd, lattice},
+}
+
+@Article{Tong2009,
+  author       = {Tong, D.},
+  date         = {2009-01},
+  journaltitle = {Ann. Phys.},
+  title        = {Quantum vortex strings: A review},
+  issue        = {1},
+  pages        = {30-52},
+  volume       = {324},
+  abstract     = {The quantum worldsheet dynamics of vortex strings contains information about the 4d non-Abelian gauge theory in which the string lives. Here I tell this story. The string worldsheet theory is typically some variant of the CPN-1 sigma-model, describing the orientation of the string in a U(N) gauge group. Qualitative parallels between 2d sigma-models and 4d non-Abelian gauge theories have been known since the 1970s. The vortex string provides a quantitative link between the two. In 4d theories with N=2 supersymmetry, the exact BPS spectrum of the worldsheet coincides with the bulk spectrum in 4d. Moreover, by tuning parameters, the CPN-1 sigma-model can be coaxed to flow to an interacting conformal fixed point which is related to the 4d Argyres–Douglas fixed point. For theories with N=1 supersymmetry, the worldsheet theory suffers dynamical supersymmetry breaking and, more interestingly, supersymmetry restoration, in a way which captures the physics of Seiberg’s quantum deformed moduli space.},
+  keywords     = {cpn, pedag, review, qft},
+}
+
+@InCollection{Hauser2017,
+  author    = {Hauser, M. and Ray, A.},
+  booktitle = {Advances in Neural Information Processing Systems 30},
+  date      = {2017},
+  title     = {Principles of {Riemannian} Geometry in Neural Networks},
+  editor    = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+  pages     = {2807-2816},
+  publisher = {Curran Associates, Inc.},
+  url       = {http://papers.nips.cc/paper/6873-principles-of-riemannian-geometry-in-neural-networks.pdf},
+  keywords  = {non-eucl, ml},
+}
+
+@Article{Blucher2020,
+  author       = {Bl\"{u}cher, S. and Kades, L. and Pawlowski, J. M. and Strodthoff, N. and Urban, J. M.},
+  date         = {2020-05-20},
+  journaltitle = {Phys. Rev. D},
+  title        = {Towards novel insights in lattice field theory with explainable machine learning},
+  issue        = {9},
+  pages        = {094507},
+  volume       = {101},
+  keywords     = {lattice, ml},
+}
+
+@InProceedings{Na1992,
+  author    = {Na, H-S. and Park, Y.},
+  booktitle = {IJCNN International Joint Conference on Neural Networks},
+  date      = {1992-06},
+  title     = {Symmetric neural networks and its examples},
+  pages     = {413-418},
+  volume    = {1},
+  keywords  = {equivar, ml},
+}
+
+@Book{MardiaJupp,
+  author    = {Mardia, K. V. and Jupp, P. E.},
+  date      = {2000},
+  title     = {Directional Statistics},
+  location  = {London},
+  publisher = {John Wiley & Sons Ltd},
+  keywords  = {directional, stats},
+}
+
+@Thesis{Navarro2017,
+  author      = {Navarro, A. K. W.},
+  date        = {2017},
+  institution = {University of Cambridge},
+  title       = {Probabilistic Machine Learning for Circular Statistics},
+  type        = {phdthesis},
+  keywords    = {directional, stats},
+}
+
+@Book{MacKay,
+  author    = {MacKay, D. J. C.},
+  date      = {2003},
+  title     = {Information Theory, Inference, and Learning Algorithms},
+  publisher = {Cambridge University Press},
+  keywords  = {stats, pedag, information},
+}
+
+@Book{Gattringer,
+  author    = {Gattringer, C. and Lang, C. B.},
+  date      = {2010},
+  title     = {{Quantum Chromodynamics} on the Lattice: An Introductory Presentation},
+  publisher = {Springer-Verlag Berlin Heidelberg},
+  keywords  = {lattice, qcd},
+}
+
+@Article{Dyson1949,
+  author       = {Dyson, F. J.},
+  date         = {1949},
+  journaltitle = {Phys. Rev.},
+  title        = {The Radiation Theories of {Tomonaga, Schwinger, and Feynman}},
+  pages        = {486},
+  volume       = {75},
+  keywords     = {qft, historical, qed},
+}
+
+@Misc{Boyda2020,
+  author      = {Boyda, D. and Kanwar, G. and Racani\`{e}re and Rezende, D. J. and Albergo, M. S. and Cranmer, K. and Hackett, D. C. and Shanahan, P. E.},
+  date        = {2020-08-12},
+  title       = {Sampling using {SU(N)} gauge equivariant flows},
+  eprint      = {2008.05456},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  abstract    = {We develop a flow-based sampling algorithm for SU(N) lattice gauge theories that is gaugeinvariant by construction. Our key contribution is constructing a class of flows on an SU(N) variable (or on a U(N) variable by a simple alternative) that respect matrix conjugation symmetry. We apply this technique to sample distributions of single SU(N) variables and to construct flow-based samplers for SU(2) and SU(3) lattice gauge theory in two dimensions.},
+  keywords    = {lattice, sun, mcmc, su2, su3, flows, dgm, ml},
+}
+
+@Misc{Cohen2019,
+  author      = {Cohen, T. S. and Weiler, M. and Kicanaoglu, B. and Welling, M.},
+  date        = {2019-02-11},
+  title       = {Gauge equivariant convolutional networks and the icosahedral {CNN}},
+  eprint      = {1902.04615},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {The principle of equivariance to symmetry transformations enables a theoretically grounded approach to neural network architecture design. Equivariant networks have shown excellent performance and data efficiency on vision and medical imaging problems that exhibit symmetries. Here we show how this principle can be extended beyond global symmetries to local gauge transformations. This enables the development of a very general class of convolutional neural networks on manifolds that depend only on the intrinsic geometry, and which includes many popular methods from equivariant and geometric deep learning. We implement gauge equivariant CNNs for signals defined on the surface of the icosahedron, which provides a reasonable approximation of the sphere. By choosing to work with this very regular manifold, we are able to implement the gauge equivariant convolution using a single conv2d call, making it a highly scalable and practical alternative to Spherical CNNs. Using this method, we demonstrate substantial improvements over previous methods on the task of segmenting omnidirectional images and global climate patterns.},
+  keywords    = {equivar, ml},
+}
+
+@Misc{Bekkers2019,
+  author      = {Bekkers, E. J.},
+  date        = {2019-09-26},
+  title       = {B-Spline {CNNs} on {Lie} Groups},
+  eprint      = {1909.12057},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Group convolutional neural networks (G-CNNs) can be used to improve classical CNNs by equipping them with the geometric structure of groups. Central in the success of G-CNNs is the lifting of feature maps to higher dimensional disentangled representations, in which data characteristics are effectively learned, geometric data-augmentations are made obsolete, and predictable behavior under geometric transformations (equivariance) is guaranteed via group theory. Currently, however, the practical implementations of G-CNNs are limited to either discrete groups (that leave the grid intact) or continuous compact groups such as rotations (that enable the use of Fourier theory). In this paper we lift these limitations and propose a modular framework for the design and implementation of G-CNNs for arbitrary Lie groups. In our approach the differential structure of Lie groups is used to expand convolution kernels in a generic basis of B-splines that is defined on the Lie algebra. This leads to a flexible framework that enables localized, atrous, and deformable convolutions in G-CNNs by means of respectively localized, sparse and non-uniform B-spline expansions. The impact and potential of our approach is studied on two benchmark datasets: cancer detection in histopathology slides in which rotation equivariance plays a key role and facial landmark localization in which scale equivariance is important. In both cases, G-CNN architectures outperform their classical 2D counterparts and the added value of atrous and localized group convolutions is studied in detail.},
+  keywords    = {geometry},
+}
+
+@Misc{Casado2019,
+  author      = {Lezcano-Casado, M. and Mart\'{i}nez-Rubio, D.},
+  date        = {2019-01-24},
+  title       = {Cheap Orthogonal Constraints in Neural Networks: A Simple Parametrization of the Orthogonal and Unitary Group},
+  eprint      = {1901.08428},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {We introduce a novel approach to perform first-order optimization with orthogonal and unitary constraints. This approach is based on a parametrization stemming from Lie group theory through the exponential map. The parametrization transforms the constrained optimization problem into an unconstrained one over a Euclidean space, for which common first-order optimization methods can be used. The theoretical results presented are general enough to cover the special orthogonal group, the unitary group and, in general, any connected compact Lie group. We discuss how this and other parametrizations can be computed efficiently through an implementation trick, making numerically complex parametrizations usable at a negligible runtime cost in neural networks. In particular, we apply our results to RNNs with orthogonal recurrent weights, yielding a new architecture called expRNN. We demonstrate how our method constitutes a more robust approach to optimization with orthogonal constraints, showing faster, accurate, and more stable convergence in several tasks designed to test RNNs.},
+  keywords    = {equivar, ml},
+}
+
+@Misc{Cohen2018,
+  author      = {Cohen, T. S. and Geiger, M. and Koehler, J. and Welling, M.},
+  date        = {2018-01-30},
+  title       = {Spherical {CNNs}},
+  eprint      = {1801.10130},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Convolutional Neural Networks (CNNs) have become the method of choice for learning problems involving 2D planar images. However, a number of problems of recent interest have created a demand for models that can analyze spherical images. Examples include omnidirectional vision for drones, robots, and autonomous cars, molecular regression problems, and global weather and climate modelling. A naive application of convolutional networks to a planar projection of the spherical signal is destined to fail, because the space-varying distortions introduced by such a projection will make translational weight sharing ineffective.
+In this paper we introduce the building blocks for constructing spherical CNNs. We propose a definition for the spherical cross-correlation that is both expressive and rotation-equivariant. The spherical correlation satisfies a generalized Fourier theorem, which allows us to compute it efficiently using a generalized (non-commutative) Fast Fourier Transform (FFT) algorithm. We demonstrate the computational efficiency, numerical accuracy, and effectiveness of spherical CNNs applied to 3D model recognition and atomization energy regression.},
+  keywords    = {equivar, ml},
+}
+
+@Misc{Parcollet2018,
+  author      = {Parcollet, T. and Ravanelli, M. and Morchid, M. and Linar\`{e}s, G. and Trabelsi, C. and De Mori, R. and Bengio, Y.},
+  date        = {2018-06-12},
+  title       = {Quaternion Recurrent Neural Networks},
+  eprint      = {1806.04418},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {Recurrent neural networks (RNNs) are powerful architectures to model sequential data, due to their capability to learn short and long-term dependencies between the basic elements of a sequence. Nonetheless, popular tasks such as speech or images recognition, involve multi-dimensional input features that are characterized by strong internal dependencies between the dimensions of the input vector. We propose a novel quaternion recurrent neural network (QRNN), alongside with a quaternion long-short term memory neural network (QLSTM), that take into account both the external relations and these internal structural dependencies with the quaternion algebra. Similarly to capsules, quaternions allow the QRNN to code internal dependencies by composing and processing multidimensional features as single entities, while the recurrent operation reveals correlations between the elements composing the sequence. We show that both QRNN and QLSTM achieve better performances than RNN and LSTM in a realistic application of automatic speech recognition. Finally, we show that QRNN and QLSTM reduce by a maximum factor of 3.3x the number of free parameters needed, compared to real-valued RNNs and LSTMs to reach better results, leading to a more compact representation of the relevant information.},
+  keywords    = {equivar, non-eucl, ml},
+}
+
+@Misc{Jansen2020,
+  author      = {Jansen, K. and M\"{u}ller, E. H. and Scheichl, R.},
+  date        = {2020-08-07},
+  title       = {Multilevel {Monte Carlo} for quantum mechanics on a lattice},
+  eprint      = {2008.03090},
+  eprintclass = {hep-lat},
+  eprinttype  = {arXiv},
+  abstract    = {Monte Carlo simulations of quantum field theories on a lattice become increasingly expensive as the continuum limit is approached since the cost per independent sample grows with a high power of the inverse lattice spacing. Simulations on fine lattices suffer from critical slowdown, the rapid growth of autocorrelations in the Markov chain with decreasing lattice spacing. This causes a strong increase in the number of lattice configurations that have to be generated to obtain statistically significant results. This paper discusses hierarchical sampling methods to tame this growth in autocorrelations. Combined with multilevel variance reduction, this significantly reduces the computational cost of simulations for given tolerances ϵdisc on the discretisation error and ϵstat on the statistical error. For an observable with lattice errors of order α and an integrated autocorrelation time that grows like τint∝a−z, multilevel Monte Carlo (MLMC) can reduce the cost from O(ϵ−2statϵ−(1+z)/αdisc) to O(ϵ−2stat|logϵdisc|2+ϵ−1/αdisc). Even higher performance gains are expected for simulations of quantum field theories in D dimensions. The efficiency of the approach is demonstrated on two model systems, including a topological oscillator that is badly affected by critical slowdown due to freezing of the topological charge. On fine lattices, the new methods are orders of magnitude faster than standard sampling based on Hybrid Monte Carlo. For high resolutions, MLMC can be used to accelerate even the cluster algorithm for the topological oscillator. Performance is further improved through perturbative matching which guarantees efficient coupling of theories on the multilevel hierarchy.},
+  keywords    = {lattice, multigrid, mcmc, csd},
+}
+
+@Misc{Cohen2016,
+  author      = {Cohen, T. S. and Welling, M.},
+  date        = {2016-02-24},
+  title       = {Group equivariant convolutional networks},
+  eprint      = {1602.07576},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {We introduce Group equivariant Convolutional Neural Networks (G-CNNs), a natural generalization of convolutional neural networks that reduces sample complexity by exploiting symmetries. G-CNNs use G-convolutions, a new type of layer that enjoys a substantially higher degree of weight sharing than regular convolution layers. G-convolutions increase the expressive capacity of the network without increasing the number of parameters. Group convolution layers are easy to use and can be implemented with negligible computational overhead for discrete groups generated by translations, reflections and rotations. G-CNNs achieve state of the art results on CIFAR10 and rotated MNIST.},
+  keywords    = {equivar, ml},
+}
+
+@Misc{Salman2018,
+  author      = {Salman, H. and Yadollahpour, P. and Fletcher, T. and Batmanghelich, K.},
+  date        = {2018-10-08},
+  title       = {Deep diffeomorphic normalizing flows},
+  eprint      = {1810.03256},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {The Normalizing Flow (NF) models a general probability density by estimating an invertible transformation applied on samples drawn from a known distribution. We introduce a new type of NF, called Deep Diffeomorphic Normalizing Flow (DDNF). A diffeomorphic flow is an invertible function where both the function and its inverse are smooth. We construct the flow using an ordinary differential equation (ODE) governed by a time-varying smooth vector field. We use a neural network to parametrize the smooth vector field and a recursive neural network (RNN) for approximating the solution of the ODE. Each cell in the RNN is a residual network implementing one Euler integration step. The architecture of our flow enables efficient likelihood evaluation, straightforward flow inversion, and results in highly flexible density estimation. An end-to-end trained DDNF achieves competitive results with state-of-the-art methods on a suite of density estimation and variational inference tasks. Finally, our method brings concepts from Riemannian geometry that, we believe, can open a new research direction for neural density estimation.},
+  keywords    = {flows, equivar, new-model, dgm},
+}
+
+@Article{Ferdinand1969,
+  author       = {Ferdinand, A. E. and Fisher, M. E.},
+  date         = {1969-09-10},
+  journaltitle = {Phys. Rev.},
+  title        = {Bounded and Inhomogeneous {Ising} Models. I. Specific-Heat Anomaly of a Finite Lattice},
+  issue        = {2},
+  number       = {2},
+  pages        = {832-846},
+  volume       = {185},
+  keywords     = {fss, ising, lattice},
+}
+
+@Article{Landau1976,
+  author       = {Landau, D. P.},
+  date         = {1976-04-01},
+  journaltitle = {Phys. Rev. B},
+  title        = {Finite-size behavior of the {Ising} square lattice},
+  number       = {7},
+  pages        = {2997-3011},
+  volume       = {13},
+  abstract     = {An importance-sampling Monte Carlo method is used to study N X N Ising square lattices with nearestneighbor interactions and either free edges or periodic boundary conditions. The internal energy, specific heat,
+order parameter, susceptibility, and near-neighbor spin-spin correlation functions of the finite lattices are
+determined as a function of N and extrapolated to the corresponding infinite-system values. The effect of
+finite size is greater for free edges in all cases. The results agree well with predictions of finite size scaling
+theory and the shape functions as well as amplitudes of surface contribution terms are determined.},
+  keywords     = {fss, ising, lattice},
+}
+
+@Article{Binder1981,
+  author       = {Binder, K.},
+  date         = {1981-08-31},
+  journaltitle = {Phys. Rev. Lett.},
+  title        = {Critical Properties from {Monte Carlo} Coarse Gaining and Renormalization},
+  number       = {9},
+  pages        = {693-696},
+  volume       = {47},
+  abstract     = {The distribution function PL(s) of the local order parameter s in finite blocks of size Ld is studied for Ising models for dimensionalities d=2, 3, and 4 by Monte Carlo methods. A real-space renormalization group based on phenomenological scaling yields fairly accurate results for rather small L (e.g., the standard exponents β and ν for d=3 are found as 2βν=1.03±0.01, 1ν=1.60±0.05). The method can easily be generalized to arbitrary Hamiltonians, including spin dimensionalities n>1.},
+  keywords     = {ising, renorm, lattice},
+}
+
+@Article{Kadanoff1966,
+  author       = {Kadanoff, L. P.},
+  date         = {1966},
+  journaltitle = {Physics},
+  title        = {Scaling laws for {Ising} models near {$T_c$}},
+  number       = {6},
+  pages        = {263-272},
+  volume       = {2},
+  keywords     = {ising, renorm, lattice},
+}
+
+@Article{Ajtai1983,
+  author       = {Ajtai, M.},
+  date         = {1983-07},
+  journaltitle = {Annals of Pure and Applied Logic},
+  title        = {{$\sum^1_1$}-Formulae on finite structures},
+  issue        = {1},
+  pages        = {1-48},
+  volume       = {24},
+  keywords     = {logic, maths},
+}
+
+@InProceedings{Hastad1989,
+  author    = {H{\aa}stad, J.},
+  booktitle = {Randomness and Computation},
+  date      = {1989},
+  title     = {Almost Optimal Lower Bounds for Small Depth Circuits},
+  pages     = {6-20},
+  keywords  = {circuits, maths},
+}
+
+@Article{Hastad1991,
+  author       = {H{\aa}stad, J. and Goldmann, M.},
+  date         = {1991},
+  journaltitle = {Computational Complexity},
+  title        = {On the power of small-depth threshold circuits},
+  pages        = {610-618},
+  volume       = {1},
+  keywords     = {circuits, maths},
+}
+
+@InProceedings{Bengio2006,
+  author    = {Bengio, Y. and Delalleau, O. and Le Roux, N.},
+  booktitle = {Advances in Neural Information Processing Systems 18 ({NIPS}’05)},
+  date      = {2006},
+  title     = {The Curse of Highly Variable Functions for Local Kernel Machines},
+  pages     = {107-114},
+  abstract  = {We present a series of theoretical arguments supporting the claim that a large class of modern learning algorithms that rely solely on the smooth-ness prior – with similarity between examples expressed with a local kernel – are sensitive to the curse of dimensionality, or more precisely to the variability of the target. Our discussion covers supervised, semi-supervised and unsupervised learning algorithms. These algorithms are found to be local in the sense that crucial properties of the learned func-tion at x depend mostly on the neighbors of x in the training set. This makes them sensitive to the curse of dimensionality, well studied for classical non-parametric statistical learning. We show in the case of the Gaussian kernel that when the function to be learned has many variations, these algorithms require a number of training examples proportional to the number of variations, which could be large even though there may ex-ist short descriptions of the target function, i.e. their Kolmogorov com-plexity may be low. This suggests that there exist non-local learning algorithms that at least have the potential to learn about such structured but apparently complex functions (because locally they have many vari-ations), while not using very specific prior domain knowledge.},
+  keywords  = {ml, architecture},
+}
+
+@InBook{Bengio2007,
+  author    = {Bengio, Y. and LeCun, Y.},
+  booktitle = {Large-scale Kernel Machines},
+  date      = {2007-01},
+  title     = {Scaling learning algorithms towards {AI}},
+  publisher = {MIT Press},
+  abstract  = {One long-term goal of machine learning research is to produce methods that
+are applicable to highly complex tasks, such as perception (vision, audition), reasoning, intelligent control, and other artificially intelligent behaviors. We argue
+that in order to progress toward this goal, the Machine Learning community must
+endeavor to discover algorithms that can learn highly complex functions, with minimal need for prior knowledge, and with minimal human intervention. We present
+mathematical and empirical evidence suggesting that many popular approaches
+to non-parametric learning, particularly kernel methods, are fundamentally limited in their ability to learn complex high-dimensional functions. Our analysis
+focuses on two problems. First, kernel machines are shallow architectures, in
+which one large layer of simple template matchers is followed by a single layer
+of trainable coefficients. We argue that shallow architectures can be very inefficient in terms of required number of computational elements and examples. Second, we analyze a limitation of kernel machines with a local kernel, linked to the
+curse of dimensionality, that applies to supervised, unsupervised (manifold learning) and semi-supervised kernel machines. Using empirical results on invariant
+image recognition tasks, kernel methods are compared with deep architectures, in
+which lower-level features or concepts are progressively combined into more abstract and higher-level representations. We argue that deep architectures have the
+potential to generalize in non-local ways, i.e., beyond immediate neighbors, and
+that this is crucial in order to make progress on the kind of complex tasks required
+for artificial intelligence.},
+  keywords  = {ml, architecture},
+}
+
+@InProceedings{Mhaskar2017,
+  author    = {Mhaskar, H. and Liao, Q. and Poggio, T.},
+  booktitle = {When and Why Are Deep Networks Better than Shallow Ones?},
+  date      = {2017},
+  title     = {When and why are deep networks bettter than shallow ones},
+  keywords  = {ml, architecture},
+}
+
+@Misc{Lin2016,
+  author      = {Lin, H. W. and Tegmark, M. and Rolnick, D.},
+  date        = {2016-08-29},
+  title       = {Why does deep and cheap learning work so well?},
+  eprint      = {1608.08225},
+  eprintclass = {cond-mat.dis-nn},
+  eprinttype  = {arXiv},
+  keywords    = {ml, architecture},
+}
+
+@Misc{Kingma2016,
+  author      = {Kingma, D. P. and Salimans, T. and Jozefowicz, R. and Chen, X. and Sutskever, I. and Welling, M.},
+  date        = {2016-06-15},
+  title       = {Improving Variational Inference with Inverse Autoregressive Flow},
+  eprint      = {1606.04934},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {The framework of normalizing flows provides a general strategy for flexible variational inference of posteriors over latent variables. We propose a new type of normalizing flow, inverse autoregressive flow (IAF), that, in contrast to earlier published flows, scales well to high-dimensional latent spaces. The proposed flow consists of a chain of invertible transformations, where each transformation is based on an autoregressive neural network. In experiments, we show that IAF significantly improves upon diagonal Gaussian approximate posteriors. In addition, we demonstrate that a novel type of variational autoencoder, coupled with IAF, is competitive with neural autoregressive models in terms of attained log-likelihood on natural images, while allowing significantly faster synthesis.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Article{Hinton2006,
+  author       = {Hinton, G. E. and Osindero, S. and Teh, Y-W.},
+  date         = {2006-08},
+  journaltitle = {Neural Comput.},
+  title        = {A Fast Learning Algorithm for Deep Belief Nets},
+  number       = {7},
+  pages        = {1527-1554},
+  volume       = {18},
+  abstract     = {We show how to use "complementary priors" to eliminate the explaining-away effects that make inference difficult in densely connected belief nets that have many hidden layers. Using complementary priors, we derive a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory. The fast, greedy algorithm is used to initialize a slower learning procedure that fine-tunes the weights using a contrastive version of the wake-sleep algorithm. After fine-tuning, a network with three hidden layers forms a very good generative model of the joint distribution of handwritten digit images and their labels. This generative model gives better digit classification than the best discriminative learning algorithms. The low-dimensional manifolds on which the digits lie are modeled by long ravines in the free-energy landscape of the top-level associative memory, and it is easy to explore these ravines by using the directed connections to display what the associative memory has in mind.},
+  keywords     = {historical, ml},
+}
+
+@Misc{Atanov2019,
+  author      = {Atanov, A. and Volokhova, A. and Ashukha, A. and Sosnovik, I. and Vetrov, D.},
+  date        = {2019-05-01},
+  title       = {Semi-Conditional Normalizing Flows for Semi-Supervised Learning},
+  eprint      = {1905.00505},
+  eprintclass = {stat.ML},
+  eprinttype  = {arXiv},
+  abstract    = {This paper proposes a semi-conditional normalizing flow model for semi-supervised learning. The model uses both labelled and unlabeled data to learn an explicit model of joint distribution over objects and labels. Semi-conditional architecture of the model allows us to efficiently compute a value and gradients of the marginal likelihood for unlabeled objects. The conditional part of the model is based on a proposed conditional coupling layer. We demonstrate performance of the model for semi-supervised classification problem on different datasets. The model outperforms the baseline approach based on variational auto-encoders on MNIST dataset.},
+  keywords    = {flows, dgm, new-model},
+}
+
+@Misc{Gambardella2019,
+  author      = {Gambardella, A. and Baydin, A. G. and Torr, P. H. S.},
+  date        = {2019-11-29},
+  title       = {Transflow Learning: Repurposing Flow Models Without Retraining},
+  eprint      = {1911.13270},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {It is well known that deep generative models have a rich latent space, and that it is possible to smoothly manipulate their outputs by traversing this latent space. Recently, architectures have emerged that allow for more complex manipulations, such as making an image look as though it were from a different class, or painted in a certain style. These methods typically require large amounts of training in order to learn a single class of manipulations. We present Transflow Learning, a method for transforming a pre-trained generative model so that its outputs more closely resemble data that we provide afterwards. In contrast to previous methods, Transflow Learning does not require any training at all, and instead warps the probability distribution from which we sample latent vectors using Bayesian inference. Transflow Learning can be used to solve a wide variety of tasks, such as neural style transfer and few-shot classification.},
+  keywords    = {flows, dgm},
+}
+
+@Misc{Krizhevsky2009,
+  author   = {Krizhevsky, A.},
+  date     = {2009-04-08},
+  title    = {Learning Multiple Layers of Features from Tiny Images},
+  abstract = {Groups at MIT and NYU have collected a dataset of millions of tiny colour images from the web. It is, in principle, an excellent dataset for unsupervised training of deep generative models, but previous researchers who have tried this have found it dicult to learn a good set of lters from the images. We show how to train a multi-layer generative model that learns to extract meaningful features which resemble those found in the human visual cortex. Using a novel parallelization algorithm to distribute the work among multiple machines connected on a network, we show how training such a model can be done in reasonable time.
+A second problematic aspect of the tiny images dataset is that there are no reliable class labels
+which makes it hard to use for object recognition experiments. We created two sets of reliable labels. The CIFAR-10 set has 6000 examples of each of 10 classes and the CIFAR-100 set has 600 examples if each of 100 non-overlapping classes. Using these labels, we show that object recognition is signicantly improved by pre-training a layer of features on a large set of unlabeled tiny images.},
+  comment  = {CIFAR-10 and CIFAR-100},
+  keywords = {dataset, ml},
+}
+
+@Article{Schaich2009,
+  author       = {Schaich, D. and Loinaz, W.},
+  date         = {2009-03-26},
+  journaltitle = {Phys. Rev. D},
+  title        = {An improved lattice measurement of the critical coupling in {$\phi^4_2$} theory},
+  eprint       = {0902.0045},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  pages        = {056008},
+  volume       = {79},
+  abstract     = {We use Monte Carlo simulations to obtain an improved lattice measurement of the critical coupling constant [lambda / mu^2]_crit for the continuum (1 + 1)-dimensional (lambda / 4) phi^4 theory. We find that the critical coupling constant depends logarithmically on the lattice coupling, resulting in a continuum value of [lambda / mu^2]_crit = 10.8(1), in considerable disagreement with the previously reported [lambda / mu^2]_crit = 10.26(8). Although this logarithmic behavior was not observed in earlier lattice studies, it is consistent with them, and expected analytically.},
+  keywords     = {phi4, lattice},
+}
+
+@Misc{Loshchilov2016,
+  author      = {Loshchilov, I. and Hutter, F.},
+  date        = {2016-08-03},
+  title       = {{SGDR}: Stochastic Gradient Descent with Warm Restarts},
+  eprint      = {1608.03983},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Restart techniques are common in gradient-free optimization to deal with multimodal functions. Partial warm restarts are also gaining popularity in gradient-based optimization to improve the rate of convergence in accelerated gradient schemes to deal with ill-conditioned functions. In this paper, we propose a simple warm restart technique for stochastic gradient descent to improve its anytime performance when training deep neural networks. We empirically study its performance on the CIFAR-10 and CIFAR-100 datasets, where we demonstrate new state-of-the-art results at 3.14\% and 16.21\%, respectively. We also demonstrate its advantages on a dataset of EEG recordings and on a downsampled version of the ImageNet dataset. Our source code is available at this https URL},
+  keywords    = {optim, ml},
+}
+
+@Misc{Loshchilov2017,
+  author      = {Loshchilov, I. and Hutter, F.},
+  date        = {2017-11-14},
+  title       = {Decoupled Weight Decay Regularization},
+  eprint      = {1711.05101},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {L2 regularization and weight decay regularization are equivalent for standard stochastic gradient descent (when rescaled by the learning rate), but as we demonstrate this is \emph{not} the case for adaptive gradient algorithms, such as Adam. While common implementations of these algorithms employ L2 regularization (often calling it "weight decay" in what may be misleading due to the inequivalence we expose), we propose a simple modification to recover the original formulation of weight decay regularization by \emph{decoupling} the weight decay from the optimization steps taken w.r.t. the loss function. We provide empirical evidence that our proposed modification (i) decouples the optimal choice of weight decay factor from the setting of the learning rate for both standard SGD and Adam and (ii) substantially improves Adam's generalization performance, allowing it to compete with SGD with momentum on image classification datasets (on which it was previously typically outperformed by the latter). Our proposed decoupled weight decay has already been adopted by many researchers, and the community has implemented it in TensorFlow and PyTorch; the complete source code for our experiments is available at this https URL},
+  comment     = {Originally called "FIxing weight decay regularization in ADAM"},
+  keywords    = {optim, ml},
+}
+
+@Misc{Chen1999,
+  author      = {Chen, X. S. and Dohm, V.},
+  date        = {1999-03-05},
+  title       = {Violation of Finite-Size Scaling in Three Dimensions},
+  eprint      = {9903103},
+  eprintclass = {cond-mat.stat-mech},
+  eprinttype  = {arXiv},
+  abstract    = {We reexamine the range of validity of finite-size scaling in the ϕ4 lattice model and the ϕ4 field theory below four dimensions. We show that general renormalization-group arguments based on the renormalizability of the ϕ4 theory do not rule out the possibility of a violation of finite-size scaling due to a finite lattice constant and a finite cutoff. For a confined geometry of linear size L with periodic boundary conditions we analyze the approach towards bulk critical behavior as L→∞ at fixed ξ for T>Tc where ξ is the bulk correlation length. We show that for this analysis ordinary renormalized perturbation theory is sufficient. On the basis of one-loop results and of exact results in the spherical limit we find that finite-size scaling is violated for both the ϕ4 lattice model and the ϕ4 field theory in the region L≫ξ. The non-scaling effects in the field theory and in the lattice model differ significantly from each other.},
+  comment     = {3D but good intro to FSS},
+  keywords    = {phi4, fss, lattice},
+}
+
+@Article{Chakrabarti2005,
+  author       = {Chakrabarti, D. and Harindranath, A. and Vary, J. P.},
+  date         = {2005-06-22},
+  journaltitle = {Phys. Rev. D},
+  title        = {Transition in the spectrum of the topological sector of {$\phi^4_2$} theory at strong coupling},
+  eprint       = {0504094},
+  eprintclass  = {hep-th},
+  eprinttype   = {arXiv},
+  pages        = {125012},
+  volume       = {71},
+  abstract     = {We investigate the strong coupling region of the topological sector of the two-dimensional ϕ4 theory. Using discrete light cone quantization (DLCQ), we extract the masses of the lowest few excitations and observe level crossings. To understand this phenomena, we evaluate the expectation value of the integral of the normal ordered ϕ2 operator and we extract the number density of constituents in these states. A coherent state variational calculation confirms that the number density for low-lying states above the transition coupling is dominantly that of a kink-antikink-kink state. The Fourier transform of the form factor of the lowest excitation is extracted which reveals a structure close to a kink-antikink-kink profile. Thus, we demonstrate that the structure of the lowest excitations becomes that of a kink-antikink-kink configuration at moderately strong coupling. We extract the critical coupling for the transition of the lowest state from that of a kink to a kink-antikink-kink. We interpret the transition as evidence for the onset of kink condensation which is believed to be the physical mechanism for the symmetry restoring phase transition in two-dimensional ϕ4 theory.},
+  keywords     = {phi4, topology, lattice},
+}
+
+@Article{De2005,
+  author       = {De, A. K. and Harindranath, A. and Maiti, J. and Sinha, T.},
+  date         = {2005-11-09},
+  journaltitle = {Phys. Rev. D},
+  title        = {Topological charge in {$1 + 1$} dimensional {$\phi^4$} theory},
+  eprint       = {0506003},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  pages        = {094504},
+  volume       = {72},
+  abstract     = {We investigate the topological charge in 1+1 dimensional ϕ4 theory on a lattice with Anti Periodic Boundary Condition (APBC) in the spatial direction. We propose a simple order parameter for the lattice theory with APBC and we demonstrate its effectiveness. Our study suggests that kink condensation is a possible mechanism for the order-disorder phase transition in the 1+1 dimensional ϕ4 theory. With renormalizations performed on the lattice with Periodic Boundary Condition (PBC), the topological charge in the renormalized theory is given as the ratio of the order parameters in the lattices with APBC and PBC. We present a comparison of topological charges in the bare and the renormalized theory and demonstrate invariance of the charge of the renormalized theory in the broken symmetry phase.},
+  keywords     = {phi4, topology, lattice},
+}
+
+@Article{Carmona2000,
+  author       = {Carmona, J. M. and Di Giacomo, A. and Lucini, B.},
+  date         = {2000-07-13},
+  journaltitle = {Phys. Lett. B},
+  title        = {A disorder analysis of the {Ising} model},
+  eprint       = {0005014},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  issue        = {1-3},
+  pages        = {126-132},
+  volume       = {485},
+  abstract     = {Lattice studies of monopole condensation in QCD are based on the construction of a disorder parameter, a creation operator of monopoles which is written in terms of the gauge fields. This procedure is expected to work for any system which presents duality. We check it on the Ising model in 2d, which is exactly solvable. The output is an amusing exercise in statistical mechanics.},
+  keywords     = {ising, topology, lattice},
+}
+
+@Article{Hornik1991,
+  author       = {Hornik, K.},
+  date         = {1991},
+  journaltitle = {Neural Networks},
+  title        = {Approximation Capabilitities of Multilayer Feedforward Networks},
+  issue        = {2},
+  pages        = {251-257},
+  volume       = {4},
+  abstract     = {We show that standard multilayer feedforward networks with as few as a single hidden layer and arbitrary bounded and nonconstant activation function are universal approximators with respect to Lp(μ) performance criteria, for arbitrary finite input environment measures μ, provided only that sufficiently many hidden units are available. If the activation function is continuous, bounded and nonconstant, then continuous mappings can be learned uniformly over compact input sets. We also give very general conditions ensuring that networks with sufficiently smooth activation functions are capable of arbitrarily accurate approximation to a function and its derivatives.},
+  keywords     = {ml, theory},
+}
+
+@MastersThesis{Csaji2001,
+  author      = {Cs\'{a}ji, B. C.},
+  date        = {2001},
+  institution = {E\"{o}tv\"{o}s Lor\'{a}nd University},
+  title       = {Approximation with Artificial Neural Networks},
+  keywords    = {ml, theory},
+}
+
+@Article{Luscher2009,
+  author       = {L\"{u}scher, M.},
+  date         = {2009-11-24},
+  journaltitle = {Commun Math Phys},
+  title        = {Trivializing Maps, the {Wilson} Flow and the {HMC} Algorithm},
+  eprint       = {0907.5491},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  volume       = {293},
+  keywords     = {lattice, hmc, mcmc},
+}
+
+@Article{Engel2011,
+  author       = {Engel, G. P. and Schaefer, S.},
+  date         = {2011-10},
+  journaltitle = {Comput. Phys. Commun.},
+  title        = {Testing trivializing maps in the {Hybrid Monte Carlo} algorithm},
+  eprint       = {1102.1852},
+  eprintclass  = {hep-lat},
+  eprinttype   = {arXiv},
+  issue        = {10},
+  pages        = {2107-2114},
+  volume       = {182},
+  keywords     = {lattice, hmc, mcmc},
+}
+
+@Misc{Gomez2017,
+  author      = {Gomez, A. N. and Ren, M. and Urtasun, R. and Grosse, R. B.},
+  date        = {2017-07-14},
+  title       = {The Reversible Residual Network: Backpropagation Without Storing Activations},
+  eprint      = {1707.04585},
+  eprintclass = {cs.CV},
+  eprinttype  = {arXiv},
+  abstract    = {Deep residual networks (ResNets) have significantly pushed forward the state-of-the-art on image classification, increasing in performance as networks grow both deeper and wider. However, memory consumption becomes a bottleneck, as one needs to store the activations in order to calculate gradients using backpropagation. We present the Reversible Residual Network (RevNet), a variant of ResNets where each layer's activations can be reconstructed exactly from the next layer's. Therefore, the activations for most layers need not be stored in memory during backpropagation. We demonstrate the effectiveness of RevNets on CIFAR-10, CIFAR-100, and ImageNet, establishing nearly identical classification accuracy to equally-sized ResNets, even though the activation storage requirements are independent of depth.},
+  keywords    = {ml, optim},
+}
+
+@Misc{Masters2018,
+  author      = {Masters, D. and Luschi, C.},
+  date        = {2018-04-20},
+  title       = {Revisiting Small Batch Training for Deep Networks},
+  eprint      = {1804.07612},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  abstract    = {Modern deep neural network training is typically based on mini-batch stochastic gradient optimization. While the use of large mini-batches increases the available computational parallelism, small batch training has been shown to provide improved generalization performance and allows a significantly smaller memory footprint, which might also be exploited to improve machine throughput.
+In this paper, we review common assumptions on learning rate scaling and training duration, as a basis for an experimental comparison of test performance for different mini-batch sizes. We adopt a learning rate that corresponds to a constant average weight update per gradient calculation (i.e., per unit cost of computation), and point out that this results in a variance of the weight updates that increases linearly with the mini-batch size m.
+The collected experimental results for the CIFAR-10, CIFAR-100 and ImageNet datasets show that increasing the mini-batch size progressively reduces the range of learning rates that provide stable convergence and acceptable test performance. On the other hand, small mini-batch sizes provide more up-to-date gradient calculations, which yields more stable and reliable training. The best performance has been consistently obtained for mini-batch sizes between m=2 and m=32, which contrasts with recent work advocating the use of mini-batch sizes in the thousands.},
+  keywords    = {optim, ml},
+}
+
+@Article{Madras1988,
+  author       = {Madras, N. and Sokal, A. D.},
+  date         = {1988},
+  journaltitle = {J. Statist. Phys},
+  pages        = {109},
+  volume       = {50},
+  keywords     = {mcmc, errors},
+}
+
+@InCollection{PyTorch,
+  author    = {Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith},
+  booktitle = {Advances in Neural Information Processing Systems 32},
+  title     = {{PyTorch}: An Imperative Style, High-Performance Deep Learning Library},
+  editor    = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+  pages     = {8024--8035},
+  publisher = {Curran Associates, Inc.},
+  url       = {http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf},
+  year      = {2019},
+}
+
+@Misc{Reportengine,
+  author   = {Kassabov, Z.},
+  date     = {2019-02-18},
+  title    = {Reportengine: A framework for declarative data analysis},
+  url      = {10.5281/zenodo.2571601},
+  keywords = {computing, python},
+}
+
+@Article{Tierney1994,
+  author       = {Tierney, L.},
+  date         = {1994},
+  journaltitle = {Ann. Statist.},
+  title        = {{Markov} chains for exploring posterior distributions},
+  pages        = {1701--1762},
+  volume       = {22},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
+
+@Comment{jabref-meta: fileDirectory:/home/joe/Library;}
